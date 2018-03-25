@@ -1,6 +1,6 @@
 SimValueCacheVersionID=1
 $begin 'SimValueInfos'
-	NextUniqueID=413
+	NextUniqueID=416
 	MoveBackwards=false
 	$begin 'SimValue'
 		ID=0
@@ -2893,6 +2893,27 @@ $begin 'SimValueInfos'
 			ValueState(24, 3, 1, 1)
 		$end 'SimValueParams'
 	$end 'SimValue'
+	$begin 'SimValue'
+		ID=413
+		$begin 'SimValueParams'
+			QuantityName='L(Group2,Group2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=414
+		$begin 'SimValueParams'
+			QuantityName='L(Group2,Group1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=415
+		$begin 'SimValueParams'
+			QuantityName='L(Group1,Group2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
 $end 'SimValueInfos'
 $begin 'SimValueCache'
 	$begin 'DesignMap'
@@ -2906,13 +2927,26 @@ $begin 'SimValueCache'
 				$begin 'VersionMap'
 					$begin 'ReportTypeSolnDef'
 						ReportType=1
-						SimValueContext(0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
+						SimValueContext(0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
-						VersionID=0
+						VersionID=669
 						$begin 'MinorVVMap'
 							MajorVariation=''
-							MinorCacheFile='min4B3C11376152192741638.tmp'
+							MinorCacheFile='min2044232152200195110.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=1
+						SimValueContext(0, 0, 2, 0, false, false, 2, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=669
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min2074232152200195211.tmp'
 						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
@@ -2922,10 +2956,10 @@ $begin 'SimValueCache'
 						SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
-						VersionID=0
+						VersionID=669
 						$begin 'MinorVVMap'
 							MajorVariation=''
-							MinorCacheFile='min4B3C11376152192741639.tmp'
+							MinorCacheFile='min2074232152200195212.tmp'
 						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'

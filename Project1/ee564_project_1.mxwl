@@ -151,9 +151,9 @@ $begin 'AnsoftProject'
 				$end 'AttachedData'
 				$begin 'ModifierData'
 				$end 'ModifierData'
-				permeability='3000'
+				permeability='4500'
 				conductivity='0.01'
-				ModTime=1521925798
+				ModTime=1521999904
 				Library=''
 				LibLocation='Project'
 			$end 'feritte_prj1'
@@ -205,7 +205,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=41
+				DataVersion=47
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -3375,7 +3375,7 @@ $begin 'AnsoftProject'
 				$end 'Magnetization'
 			$end 'GlobalBoundData'
 			$begin 'Boundaries'
-				NextUniqueID=41
+				NextUniqueID=81
 				MoveBackwards=false
 				$begin 'Balloon1'
 					ID=40
@@ -3384,323 +3384,323 @@ $begin 'AnsoftProject'
 					ParentBndID=-1
 				$end 'Balloon1'
 				$begin 'Current_1'
-					ID=0
-					BoundType='Current'
-					Objects(312)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_1'
-				$begin 'Current_2'
-					ID=1
-					BoundType='Current'
-					Objects(317)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_2'
-				$begin 'Current_3'
-					ID=2
-					BoundType='Current'
-					Objects(322)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_3'
-				$begin 'Current_4'
-					ID=3
-					BoundType='Current'
-					Objects(327)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_4'
-				$begin 'Current_5'
-					ID=4
-					BoundType='Current'
-					Objects(332)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_5'
-				$begin 'Current_6'
-					ID=5
-					BoundType='Current'
-					Objects(337)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_6'
-				$begin 'Current_7'
-					ID=6
-					BoundType='Current'
-					Objects(342)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_7'
-				$begin 'Current_8'
-					ID=7
-					BoundType='Current'
-					Objects(347)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_8'
-				$begin 'Current_9'
-					ID=8
-					BoundType='Current'
-					Objects(352)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_9'
-				$begin 'Current_10'
-					ID=9
-					BoundType='Current'
-					Objects(357)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_10'
-				$begin 'Current_11'
-					ID=10
-					BoundType='Current'
-					Objects(362)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_11'
-				$begin 'Current_12'
-					ID=11
-					BoundType='Current'
-					Objects(367)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_12'
-				$begin 'Current_13'
-					ID=12
-					BoundType='Current'
-					Objects(372)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_13'
-				$begin 'Current_14'
-					ID=13
-					BoundType='Current'
-					Objects(377)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_14'
-				$begin 'Current_15'
-					ID=14
-					BoundType='Current'
-					Objects(382)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_15'
-				$begin 'Current_16'
-					ID=15
-					BoundType='Current'
-					Objects(387)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_16'
-				$begin 'Current_17'
-					ID=16
-					BoundType='Current'
-					Objects(392)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_17'
-				$begin 'Current_18'
-					ID=17
-					BoundType='Current'
-					Objects(397)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_18'
-				$begin 'Current_19'
-					ID=18
-					BoundType='Current'
-					Objects(402)
-					ParentBndID=-1
-					Current='0.8A'
-					IsPositive=true
-				$end 'Current_19'
-				$begin 'Current_20'
-					ID=19
+					ID=41
 					BoundType='Current'
 					Objects(305)
 					ParentBndID=-1
-					Current='0.8A'
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_1'
+				$begin 'Current_2'
+					ID=42
+					BoundType='Current'
+					Objects(312)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_2'
+				$begin 'Current_3'
+					ID=43
+					BoundType='Current'
+					Objects(317)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_3'
+				$begin 'Current_4'
+					ID=44
+					BoundType='Current'
+					Objects(322)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_4'
+				$begin 'Current_5'
+					ID=45
+					BoundType='Current'
+					Objects(327)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_5'
+				$begin 'Current_6'
+					ID=46
+					BoundType='Current'
+					Objects(332)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_6'
+				$begin 'Current_7'
+					ID=47
+					BoundType='Current'
+					Objects(337)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_7'
+				$begin 'Current_8'
+					ID=48
+					BoundType='Current'
+					Objects(342)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_8'
+				$begin 'Current_9'
+					ID=49
+					BoundType='Current'
+					Objects(347)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_9'
+				$begin 'Current_10'
+					ID=50
+					BoundType='Current'
+					Objects(352)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_10'
+				$begin 'Current_11'
+					ID=51
+					BoundType='Current'
+					Objects(357)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_11'
+				$begin 'Current_12'
+					ID=52
+					BoundType='Current'
+					Objects(362)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_12'
+				$begin 'Current_13'
+					ID=53
+					BoundType='Current'
+					Objects(367)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_13'
+				$begin 'Current_14'
+					ID=54
+					BoundType='Current'
+					Objects(372)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_14'
+				$begin 'Current_15'
+					ID=55
+					BoundType='Current'
+					Objects(377)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_15'
+				$begin 'Current_16'
+					ID=56
+					BoundType='Current'
+					Objects(382)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_16'
+				$begin 'Current_17'
+					ID=57
+					BoundType='Current'
+					Objects(387)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_17'
+				$begin 'Current_18'
+					ID=58
+					BoundType='Current'
+					Objects(392)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_18'
+				$begin 'Current_19'
+					ID=59
+					BoundType='Current'
+					Objects(397)
+					ParentBndID=-1
+					Current='0.432A'
+					IsPositive=true
+				$end 'Current_19'
+				$begin 'Current_20'
+					ID=60
+					BoundType='Current'
+					Objects(402)
+					ParentBndID=-1
+					Current='0.432A'
 					IsPositive=true
 				$end 'Current_20'
 				$begin 'Current_21'
-					ID=20
+					ID=61
 					BoundType='Current'
 					Objects(409)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_21'
 				$begin 'Current_22'
-					ID=21
+					ID=62
 					BoundType='Current'
 					Objects(519)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_22'
 				$begin 'Current_23'
-					ID=22
+					ID=63
 					BoundType='Current'
 					Objects(524)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_23'
 				$begin 'Current_24'
-					ID=23
+					ID=64
 					BoundType='Current'
 					Objects(529)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_24'
 				$begin 'Current_25'
-					ID=24
+					ID=65
 					BoundType='Current'
 					Objects(534)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_25'
 				$begin 'Current_26'
-					ID=25
+					ID=66
 					BoundType='Current'
 					Objects(539)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_26'
 				$begin 'Current_27'
-					ID=26
+					ID=67
 					BoundType='Current'
 					Objects(544)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_27'
 				$begin 'Current_28'
-					ID=27
+					ID=68
 					BoundType='Current'
 					Objects(549)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_28'
 				$begin 'Current_29'
-					ID=28
+					ID=69
 					BoundType='Current'
 					Objects(554)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_29'
 				$begin 'Current_30'
-					ID=29
+					ID=70
 					BoundType='Current'
 					Objects(559)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_30'
 				$begin 'Current_31'
-					ID=30
+					ID=71
 					BoundType='Current'
 					Objects(564)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_31'
 				$begin 'Current_32'
-					ID=31
+					ID=72
 					BoundType='Current'
 					Objects(569)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_32'
 				$begin 'Current_33'
-					ID=32
+					ID=73
 					BoundType='Current'
 					Objects(574)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_33'
 				$begin 'Current_34'
-					ID=33
+					ID=74
 					BoundType='Current'
 					Objects(579)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_34'
 				$begin 'Current_35'
-					ID=34
+					ID=75
 					BoundType='Current'
 					Objects(584)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_35'
 				$begin 'Current_36'
-					ID=35
+					ID=76
 					BoundType='Current'
 					Objects(589)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_36'
 				$begin 'Current_37'
-					ID=36
+					ID=77
 					BoundType='Current'
 					Objects(594)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_37'
 				$begin 'Current_38'
-					ID=37
+					ID=78
 					BoundType='Current'
 					Objects(599)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_38'
 				$begin 'Current_39'
-					ID=38
+					ID=79
 					BoundType='Current'
 					Objects(604)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_39'
 				$begin 'Current_40'
-					ID=39
+					ID=80
 					BoundType='Current'
 					Objects(609)
 					ParentBndID=-1
-					Current='-0.8A'
+					Current='0.432A'
 					IsPositive=false
 				$end 'Current_40'
 			$end 'Boundaries'
@@ -3709,121 +3709,655 @@ $begin 'AnsoftProject'
 		$end 'BoundarySetup'
 		$begin 'MaxwellParameterSetup'
 			$begin 'MaxwellParameters'
-				NextUniqueID=1
+				NextUniqueID=5
 				MoveBackwards=false
 				$begin 'Matrix1'
-					ID=0
+					ID=1
 					MaxwellParameterType='Matrix'
 					$begin 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=0
+							Source=41
 							NumberOfTurns='1'
-							ReturnPath=20
+							ReturnPath=61
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=1
+							Source=42
 							NumberOfTurns='1'
-							ReturnPath=21
+							ReturnPath=62
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=2
+							Source=43
 							NumberOfTurns='1'
-							ReturnPath=22
+							ReturnPath=63
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=3
+							Source=44
 							NumberOfTurns='1'
-							ReturnPath=23
+							ReturnPath=64
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=4
+							Source=45
 							NumberOfTurns='1'
-							ReturnPath=24
+							ReturnPath=65
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=5
+							Source=46
 							NumberOfTurns='1'
-							ReturnPath=25
+							ReturnPath=66
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=6
+							Source=47
 							NumberOfTurns='1'
-							ReturnPath=26
+							ReturnPath=67
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=7
+							Source=48
 							NumberOfTurns='1'
-							ReturnPath=27
+							ReturnPath=68
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=8
+							Source=49
 							NumberOfTurns='1'
-							ReturnPath=28
+							ReturnPath=69
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=9
+							Source=50
 							NumberOfTurns='1'
-							ReturnPath=29
+							ReturnPath=70
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=10
+							Source=51
 							NumberOfTurns='1'
-							ReturnPath=30
+							ReturnPath=71
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=11
+							Source=52
 							NumberOfTurns='1'
-							ReturnPath=31
+							ReturnPath=72
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=12
+							Source=53
 							NumberOfTurns='1'
-							ReturnPath=32
+							ReturnPath=73
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=13
+							Source=54
 							NumberOfTurns='1'
-							ReturnPath=33
+							ReturnPath=74
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=14
+							Source=55
 							NumberOfTurns='1'
-							ReturnPath=34
+							ReturnPath=75
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=15
+							Source=56
 							NumberOfTurns='1'
-							ReturnPath=35
+							ReturnPath=76
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=16
+							Source=57
 							NumberOfTurns='1'
-							ReturnPath=36
+							ReturnPath=77
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=17
+							Source=58
 							NumberOfTurns='1'
-							ReturnPath=37
+							ReturnPath=78
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=18
+							Source=59
 							NumberOfTurns='1'
-							ReturnPath=38
+							ReturnPath=79
 						$end 'MatrixEntry'
 						$begin 'MatrixEntry'
-							Source=19
+							Source=60
 							NumberOfTurns='1'
-							ReturnPath=39
+							ReturnPath=80
+						$end 'MatrixEntry'
+					$end 'MatrixEntry'
+					$begin 'MatrixGroup'
+					$end 'MatrixGroup'
+				$end 'Matrix1'
+				$begin 'Matrix2'
+					ID=2
+					MaxwellParameterType='Matrix'
+					$begin 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=41
+							NumberOfTurns='1'
+							ReturnPath=61
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=42
+							NumberOfTurns='1'
+							ReturnPath=62
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=43
+							NumberOfTurns='1'
+							ReturnPath=63
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=44
+							NumberOfTurns='1'
+							ReturnPath=64
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=45
+							NumberOfTurns='1'
+							ReturnPath=65
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=46
+							NumberOfTurns='1'
+							ReturnPath=66
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=47
+							NumberOfTurns='1'
+							ReturnPath=67
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=48
+							NumberOfTurns='1'
+							ReturnPath=68
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=49
+							NumberOfTurns='1'
+							ReturnPath=69
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=50
+							NumberOfTurns='1'
+							ReturnPath=70
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=51
+							NumberOfTurns='1'
+							ReturnPath=71
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=52
+							NumberOfTurns='1'
+							ReturnPath=72
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=53
+							NumberOfTurns='1'
+							ReturnPath=73
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=54
+							NumberOfTurns='1'
+							ReturnPath=74
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=55
+							NumberOfTurns='1'
+							ReturnPath=75
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=56
+							NumberOfTurns='1'
+							ReturnPath=76
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=57
+							NumberOfTurns='1'
+							ReturnPath=77
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=58
+							NumberOfTurns='1'
+							ReturnPath=78
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=59
+							NumberOfTurns='1'
+							ReturnPath=79
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=60
+							NumberOfTurns='1'
+							ReturnPath=80
 						$end 'MatrixEntry'
 					$end 'MatrixEntry'
 					$begin 'MatrixGroup'
 						$begin 'MatrixGroup'
 							GroupName='Group1'
 							NumberOfBranches='1'
-							Sources[20: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+							Sources[20: 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
 						$end 'MatrixGroup'
 					$end 'MatrixGroup'
-				$end 'Matrix1'
+				$end 'Matrix2'
+				$begin 'Matrix3'
+					ID=3
+					MaxwellParameterType='Matrix'
+					$begin 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=41
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=42
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=43
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=44
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=45
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=46
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=47
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=48
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=49
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=50
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=51
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=52
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=53
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=54
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=55
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=56
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=57
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=58
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=59
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=60
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=61
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=62
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=63
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=64
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=65
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=66
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=67
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=68
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=69
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=70
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=71
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=72
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=73
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=74
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=75
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=76
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=77
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=78
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=79
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=80
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+					$end 'MatrixEntry'
+					$begin 'MatrixGroup'
+						$begin 'MatrixGroup'
+							GroupName='Group1'
+							NumberOfBranches='1'
+							Sources[20: 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+						$end 'MatrixGroup'
+						$begin 'MatrixGroup'
+							GroupName='Group2'
+							NumberOfBranches='1'
+							Sources[20: 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+						$end 'MatrixGroup'
+					$end 'MatrixGroup'
+				$end 'Matrix3'
+				$begin 'Matrix4'
+					ID=4
+					MaxwellParameterType='Matrix'
+					$begin 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=41
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=42
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=43
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=44
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=45
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=46
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=47
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=48
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=49
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=50
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=51
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=52
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=53
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=54
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=55
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=56
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=57
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=58
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=59
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=60
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=61
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=62
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=63
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=64
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=65
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=66
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=67
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=68
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=69
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=70
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=71
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=72
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=73
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=74
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=75
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=76
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=77
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=78
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=79
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=80
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+					$end 'MatrixEntry'
+					$begin 'MatrixGroup'
+					$end 'MatrixGroup'
+				$end 'Matrix4'
 			$end 'MaxwellParameters'
 			MotionParams()
 		$end 'MaxwellParameterSetup'
@@ -3899,11 +4433,11 @@ $begin 'AnsoftProject'
 					$begin 'Scale3DSettings'
 						unit=103
 						m_nLevels=15
-						minvalue=0.429904937744141
-						maxvalue=0.76225757598877
+						minvalue=0.348442226648331
+						maxvalue=0.630822241306305
 						log=false
-						IntrinsicMin=0.429904937744141
-						IntrinsicMax=0.76225757598877
+						IntrinsicMin=0.348442226648331
+						IntrinsicMax=0.630822241306305
 						LimitFieldValuePrecision=false
 						FieldValuePrecisionDigits=4
 						ScaleType=0
@@ -3933,7 +4467,7 @@ $begin 'AnsoftProject'
 				$begin 'PlotDefinition_1'
 					PlotName='B_Vector1'
 					PlotDefinitionId=5
-					VersionID=0
+					VersionID=9
 					SolutionId=591
 					QuantityId=26
 					PlotFolder='B'
@@ -4018,7 +4552,7 @@ $begin 'AnsoftProject'
 							$end 'PostprocessSweep'
 							$begin 'Sweep'
 								Variable='Pass'
-								Column='1;2'
+								Column='2;3'
 								Units=''
 							$end 'Sweep'
 						$end 'Sweeps'
@@ -4033,13 +4567,25 @@ $begin 'AnsoftProject'
 							MoveBackwards=false
 							IDMap()
 						$end 'QuantityIDs'
-						SimValue('B_Vector', 1, 103, false, SimValueID=633, 3, 0, 2, 0, false, false, 16, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Matrix1.CplCoef(Current_1,Current_1)', 1, 90, false, SimValueID=634, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Matrix1.Lnom(Current_1,Current_1)', 1, 24, false, SimValueID=635, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Matrix1.L(Group1,Group1)', 1, 24, false, SimValueID=636, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Matrix1.L(Group1,Group1)', 1, 24, false, SimValueID=637, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
-						SimValue('L(Group1,Group1)', 1, 24, false, SimValueID=638, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Matrix1.Lnom(Current_1,Current_10)', 1, 24, false, SimValueID=639, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('B_Vector', 1, 103, false, SimValueID=648, 3, 0, 2, 0, false, false, 16, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group1,Group1)', 1, 24, false, SimValueID=649, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.Lnom(Current_1,Current_1)', 1, 24, false, SimValueID=650, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.L(Group1,Group1)', 1, 24, false, SimValueID=651, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.Lnom(Current_1,Current_10)', 1, 24, false, SimValueID=652, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.CplCoef(Current_1,Current_1)', 1, 90, false, SimValueID=689, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.L(Current_1,Current_1)', 1, 24, false, SimValueID=690, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.L(Current_1,Current_1)', 1, 24, false, SimValueID=691, 0, 0, 2, 0, false, false, 2, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group1,Group1)', 1, 24, false, SimValueID=692, 0, 0, 2, 0, false, false, 2, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group1,Group1)', 1, 24, false, SimValueID=693, 0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.L(Current_1,Current_1)', 1, 24, false, SimValueID=694, 0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group2,Group2)', 1, 24, false, SimValueID=695, 0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group2,Group1)', 1, 24, false, SimValueID=696, 0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group1,Group2)', 1, 24, false, SimValueID=697, 0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group1,Group1)', 1, 24, false, SimValueID=698, 0, 0, 2, 0, false, false, 1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group1,Group2)', 1, 24, false, SimValueID=699, 0, 0, 2, 0, false, false, 1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group2,Group1)', 1, 24, false, SimValueID=700, 0, 0, 2, 0, false, false, 1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group2,Group2)', 1, 24, false, SimValueID=701, 0, 0, 2, 0, false, false, 1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.L(Current_2,Current_2)', 1, 24, false, SimValueID=702, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='NormalizedDistance'
@@ -4091,8 +4637,8 @@ $begin 'AnsoftProject'
 				$begin 'Setup'
 					N='Setup1'
 					V=0
-					Soln(N='AdaptivePass', V=0)
-					Soln(N='LastAdaptive', V=0)
+					Soln(N='AdaptivePass', V=669)
+					Soln(N='LastAdaptive', V=669)
 				$end 'Setup'
 			$end 'Version ID Map'
 			$begin 'ID Map'
@@ -4120,23 +4666,1597 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(1, -1, -1, -8, -31, 0, 0, 1525, 674), OrientationMatrix(0.0137424794957042, -6.37335833744146e-005, -0.000130189640913159, 0, 6.31947259535082e-005, 0.0137431574985385, -4.99048692290671e-005, 0, 0.000130395797896199, 4.935848119203e-005, 0.0137427356094122, 0, -0.0164307653903961, -0.202970117330551, -5.56158065795898, 1, 0, -0.48346483707428, 0.979361653327942, -0.584834575653076, 0.158356577157974, 3.43335151672363, 7.68980979919434), Drawings[42: 'Circle1', 'Circle3_18', 'Circle4_18', 'Circle4_2', 'Circle4_3', 'Circle4_6', 'Circle4_19', 'Circle3', 'Circle3_2', 'Circle3_3', 'Circle3_5', 'Circle3_6', 'Circle3_8', 'Circle3_9', 'Circle3_10', 'Circle3_11', 'Circle3_13', 'Circle3_14', 'Circle3_15', 'Circle3_16', 'Circle3_17', 'Circle3_19', 'Circle4', 'Circle4_5', 'Circle4_8', 'Circle4_9', 'Circle4_10', 'Circle4_11', 'Circle4_13', 'Circle4_14', 'Circle4_15', 'Circle4_16', 'Circle4_17', 'Circle4_1', 'Circle4_4', 'Circle4_7', 'Circle4_12', 'Circle3_1', 'Circle3_4', 'Circle3_7', 'Circle3_12', 'B_Vector1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960), PlaneDefinition(PlaneID=295, PlaneName='ClipPlane1', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-8.14717912996549e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-8.14717912996549e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1), PlaneDefinition(PlaneID=296, PlaneName='ClipPlane2', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-5.10660510060038e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-5.10660510060038e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 70, 71, 1392, 835), OrientationMatrix(0.0137424794957042, -6.37335833744146e-005, -0.000130189640913159, 0, 6.31947259535082e-005, 0.0137431574985385, -4.99048692290671e-005, 0, 0.000130395797896199, 4.935848119203e-005, 0.0137427356094122, 0, -0.0164307653903961, -0.202970117330551, -5.56158065795898, 1, 0, -0.346787691116333, 0.740176558494568, -0.554495096206665, 0.150906562805176, 3.43335151672363, 7.68980979919434), Drawings[42: 'Circle1', 'Circle3_18', 'Circle4_18', 'Circle3', 'Circle3_2', 'Circle3_3', 'Circle3_5', 'Circle3_6', 'Circle3_8', 'Circle3_9', 'Circle3_10', 'Circle3_11', 'Circle3_13', 'Circle3_14', 'Circle3_15', 'Circle3_16', 'Circle3_17', 'Circle3_19', 'Circle4', 'Circle4_2', 'Circle4_3', 'Circle4_5', 'Circle4_6', 'Circle4_8', 'Circle4_9', 'Circle4_10', 'Circle4_11', 'Circle4_13', 'Circle4_14', 'Circle4_15', 'Circle4_16', 'Circle4_17', 'Circle4_19', 'Circle3_1', 'Circle3_4', 'Circle3_7', 'Circle3_12', 'Circle4_1', 'Circle4_4', 'Circle4_7', 'Circle4_12', 'B_Vector1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960), PlaneDefinition(PlaneID=295, PlaneName='ClipPlane1', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-8.14717912996549e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-8.14717912996549e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1), PlaneDefinition(PlaneID=296, PlaneName='ClipPlane2', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-5.10660510060038e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-5.10660510060038e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
 					$begin 'ReportManager'
 						$begin 'Reports'
+							$begin 'Data Table 1'
+								ReportID=442
+								ReportName='Data Table 1'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=441
+									VersionID=848
+									Name='Matrix1.L(Current_1,Current_1)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='Matrix1.L(Current_1,Current_1)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+							$end 'Data Table 1'
+							$begin 'Data Table 2'
+								ReportID=444
+								ReportName='Data Table 2'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, 2, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=443
+									VersionID=850
+									Name='L(Group1,Group1)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='L(Group1,Group1)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+							$end 'Data Table 2'
+							$begin 'Data Table 3'
+								ReportID=446
+								ReportName='Data Table 3'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=445
+									VersionID=852
+									Name='L(Group1,Group1)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='L(Group1,Group1)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+							$end 'Data Table 3'
+							$begin 'Data Table 4'
+								ReportID=451
+								ReportName='Data Table 4'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=447
+									VersionID=857
+									Name='L(Group1,Group1)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='L(Group1,Group1)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=448
+									VersionID=858
+									Name='L(Group1,Group2)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='L(Group1,Group2)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=449
+									VersionID=859
+									Name='L(Group2,Group1)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='L(Group2,Group1)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=450
+									VersionID=860
+									Name='L(Group2,Group2)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='L(Group2,Group2)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+							$end 'Data Table 4'
+							$begin 'Data Table 5'
+								ReportID=453
+								ReportName='Data Table 5'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=452
+									VersionID=862
+									Name='Matrix1.L(Current_1,Current_1)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='Matrix1.L(Current_1,Current_1)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+							$end 'Data Table 5'
+							$begin 'Data Table 6'
+								ReportID=455
+								ReportName='Data Table 6'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=454
+									VersionID=864
+									Name='Matrix1.L(Current_2,Current_2)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='Matrix1.L(Current_2,Current_2)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+							$end 'Data Table 6'
 						$end 'Reports'
-						NextUniqueID=441
+						NextUniqueID=456
 						MoveBackwards=false
 						$begin 'NextVersID'
-							NextUniqueID=847
+							NextUniqueID=865
 							MoveBackwards=false
 						$end 'NextVersID'
 					$end 'ReportManager'
 					$begin 'Reports'
+						$begin 'Data Table 1'
+							ReportID=442
+							$begin 'Report2D'
+								name='Data Table 1'
+								ReportID=442
+								ReportType=1
+								DisplayType=4
+								Title=''
+								Domain=''
+								$begin 'Graph2DsV2'
+									$begin 'Graph2D'
+										TraceDefID=441
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+								$end 'Graph2DsV2'
+								$begin 'PlotDisplayDataManager'
+									NextUniqueID=9
+									MoveBackwards=false
+									$begin 'PlotHeaderDataSource'
+										CompanyName=''
+										ShowDesignName=true
+										ProjectFileName=''
+									$end 'PlotHeaderDataSource'
+									StockNameIDMap(DataTable=3, Header=0, PrimarySweep=1)
+									$begin 'SourceList'
+									$end 'SourceList'
+									$begin 'DocAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=255, G=0, B=0)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HorizontalLeftTriangle'
+														SymbolColor(R=0, G=25, B=185)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=0
+													$begin 'HeaderRenderAttribute'
+														$begin 'TitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-19
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TitleFont'
+														$begin 'SubtitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-13
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'SubtitleFont'
+													$end 'HeaderRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocAttributes'
+									$begin 'DocDefaultAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocDefaultAttributes'
+									$begin 'PerViewPlotAttributeStoreMap'
+									$end 'PerViewPlotAttributeStoreMap'
+									IsViewAttribServer=false
+									ViewID=-1
+									$begin 'SourceIDMap'
+										IDMapItem(441, 0, -1, 7)
+									$end 'SourceIDMap'
+									$begin 'TraceCharacteristicsMgr'
+									$end 'TraceCharacteristicsMgr'
+									$begin 'CartesianXMarkerManager'
+										RefMarkerID=-1
+										CurrentMarkerID=-1
+										$begin 'ReferenceCurves'
+										$end 'ReferenceCurves'
+									$end 'CartesianXMarkerManager'
+									$begin 'CartesianYMarkerManager'
+									$end 'CartesianYMarkerManager'
+									DigitalClosedRecordsItem[0:]
+									XAxisStackID=-1
+									$begin 'AllTransSrcDwg'
+										$begin 'PT'
+											ID=25
+											TransSrcDwg(-1, 0, 5)
+										$end 'PT'
+									$end 'AllTransSrcDwg'
+									$begin 'AllPtSVID'
+									$end 'AllPtSVID'
+								$end 'PlotDisplayDataManager'
+							$end 'Report2D'
+						$end 'Data Table 1'
+						$begin 'Data Table 2'
+							ReportID=444
+							$begin 'Report2D'
+								name='Data Table 2'
+								ReportID=444
+								ReportType=1
+								DisplayType=4
+								Title=''
+								Domain=''
+								$begin 'Graph2DsV2'
+									$begin 'Graph2D'
+										TraceDefID=443
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+								$end 'Graph2DsV2'
+								$begin 'PlotDisplayDataManager'
+									NextUniqueID=9
+									MoveBackwards=false
+									$begin 'PlotHeaderDataSource'
+										CompanyName=''
+										ShowDesignName=true
+										ProjectFileName=''
+									$end 'PlotHeaderDataSource'
+									StockNameIDMap(DataTable=3, Header=0, PrimarySweep=1)
+									$begin 'SourceList'
+									$end 'SourceList'
+									$begin 'DocAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=255, G=0, B=0)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HorizontalLeftTriangle'
+														SymbolColor(R=0, G=25, B=185)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=0
+													$begin 'HeaderRenderAttribute'
+														$begin 'TitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-19
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TitleFont'
+														$begin 'SubtitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-13
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'SubtitleFont'
+													$end 'HeaderRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocAttributes'
+									$begin 'DocDefaultAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocDefaultAttributes'
+									$begin 'PerViewPlotAttributeStoreMap'
+									$end 'PerViewPlotAttributeStoreMap'
+									IsViewAttribServer=false
+									ViewID=-1
+									$begin 'SourceIDMap'
+										IDMapItem(443, 0, -1, 7)
+									$end 'SourceIDMap'
+									$begin 'TraceCharacteristicsMgr'
+									$end 'TraceCharacteristicsMgr'
+									$begin 'CartesianXMarkerManager'
+										RefMarkerID=-1
+										CurrentMarkerID=-1
+										$begin 'ReferenceCurves'
+										$end 'ReferenceCurves'
+									$end 'CartesianXMarkerManager'
+									$begin 'CartesianYMarkerManager'
+									$end 'CartesianYMarkerManager'
+									DigitalClosedRecordsItem[0:]
+									XAxisStackID=-1
+									$begin 'AllTransSrcDwg'
+										$begin 'PT'
+											ID=25
+											TransSrcDwg(-1, 0, 5)
+										$end 'PT'
+									$end 'AllTransSrcDwg'
+									$begin 'AllPtSVID'
+									$end 'AllPtSVID'
+								$end 'PlotDisplayDataManager'
+							$end 'Report2D'
+						$end 'Data Table 2'
+						$begin 'Data Table 3'
+							ReportID=446
+							$begin 'Report2D'
+								name='Data Table 3'
+								ReportID=446
+								ReportType=1
+								DisplayType=4
+								Title=''
+								Domain=''
+								$begin 'Graph2DsV2'
+									$begin 'Graph2D'
+										TraceDefID=445
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+								$end 'Graph2DsV2'
+								$begin 'PlotDisplayDataManager'
+									NextUniqueID=9
+									MoveBackwards=false
+									$begin 'PlotHeaderDataSource'
+										CompanyName=''
+										ShowDesignName=true
+										ProjectFileName=''
+									$end 'PlotHeaderDataSource'
+									StockNameIDMap(DataTable=3, Header=0, PrimarySweep=1)
+									$begin 'SourceList'
+									$end 'SourceList'
+									$begin 'DocAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=255, G=0, B=0)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HorizontalLeftTriangle'
+														SymbolColor(R=0, G=25, B=185)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=0
+													$begin 'HeaderRenderAttribute'
+														$begin 'TitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-19
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TitleFont'
+														$begin 'SubtitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-13
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'SubtitleFont'
+													$end 'HeaderRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocAttributes'
+									$begin 'DocDefaultAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocDefaultAttributes'
+									$begin 'PerViewPlotAttributeStoreMap'
+									$end 'PerViewPlotAttributeStoreMap'
+									IsViewAttribServer=false
+									ViewID=-1
+									$begin 'SourceIDMap'
+										IDMapItem(445, 0, -1, 7)
+									$end 'SourceIDMap'
+									$begin 'TraceCharacteristicsMgr'
+									$end 'TraceCharacteristicsMgr'
+									$begin 'CartesianXMarkerManager'
+										RefMarkerID=-1
+										CurrentMarkerID=-1
+										$begin 'ReferenceCurves'
+										$end 'ReferenceCurves'
+									$end 'CartesianXMarkerManager'
+									$begin 'CartesianYMarkerManager'
+									$end 'CartesianYMarkerManager'
+									DigitalClosedRecordsItem[0:]
+									XAxisStackID=-1
+									$begin 'AllTransSrcDwg'
+										$begin 'PT'
+											ID=25
+											TransSrcDwg(-1, 0, 5)
+										$end 'PT'
+									$end 'AllTransSrcDwg'
+									$begin 'AllPtSVID'
+									$end 'AllPtSVID'
+								$end 'PlotDisplayDataManager'
+							$end 'Report2D'
+						$end 'Data Table 3'
+						$begin 'Data Table 4'
+							ReportID=451
+							$begin 'Report2D'
+								name='Data Table 4'
+								ReportID=451
+								ReportType=1
+								DisplayType=4
+								Title=''
+								Domain=''
+								$begin 'Graph2DsV2'
+									$begin 'Graph2D'
+										TraceDefID=447
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+									$begin 'Graph2D'
+										TraceDefID=448
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+									$begin 'Graph2D'
+										TraceDefID=449
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+									$begin 'Graph2D'
+										TraceDefID=450
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+								$end 'Graph2DsV2'
+								$begin 'PlotDisplayDataManager'
+									NextUniqueID=15
+									MoveBackwards=false
+									$begin 'PlotHeaderDataSource'
+										CompanyName=''
+										ShowDesignName=true
+										ProjectFileName=''
+									$end 'PlotHeaderDataSource'
+									StockNameIDMap(DataTable=3, Header=0, PrimarySweep=1)
+									$begin 'SourceList'
+									$end 'SourceList'
+									$begin 'DocAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=9
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=11
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=13
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=255, G=0, B=0)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HorizontalLeftTriangle'
+														SymbolColor(R=0, G=25, B=185)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=9
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=128, G=64, B=100)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HollowCircle'
+														SymbolColor(R=128, G=0, B=128)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=11
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=0, G=0, B=200)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='VerticalDownTriangle'
+														SymbolColor(R=192, G=192, B=192)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=13
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=80, G=0, B=80)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HollowVerticalEllipse'
+														SymbolColor(R=111, G=111, B=111)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=0
+													$begin 'HeaderRenderAttribute'
+														$begin 'TitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-19
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TitleFont'
+														$begin 'SubtitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-13
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'SubtitleFont'
+													$end 'HeaderRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocAttributes'
+									$begin 'DocDefaultAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocDefaultAttributes'
+									$begin 'PerViewPlotAttributeStoreMap'
+									$end 'PerViewPlotAttributeStoreMap'
+									IsViewAttribServer=false
+									ViewID=-1
+									$begin 'SourceIDMap'
+										IDMapItem(447, 0, -1, 7)
+										IDMapItem(448, 0, -1, 9)
+										IDMapItem(449, 0, -1, 11)
+										IDMapItem(450, 0, -1, 13)
+									$end 'SourceIDMap'
+									$begin 'TraceCharacteristicsMgr'
+									$end 'TraceCharacteristicsMgr'
+									$begin 'CartesianXMarkerManager'
+										RefMarkerID=-1
+										CurrentMarkerID=-1
+										$begin 'ReferenceCurves'
+										$end 'ReferenceCurves'
+									$end 'CartesianXMarkerManager'
+									$begin 'CartesianYMarkerManager'
+									$end 'CartesianYMarkerManager'
+									DigitalClosedRecordsItem[0:]
+									XAxisStackID=-1
+									$begin 'AllTransSrcDwg'
+										$begin 'PT'
+											ID=25
+											TransSrcDwg(-1, 0, 5)
+										$end 'PT'
+									$end 'AllTransSrcDwg'
+									$begin 'AllPtSVID'
+									$end 'AllPtSVID'
+								$end 'PlotDisplayDataManager'
+							$end 'Report2D'
+						$end 'Data Table 4'
+						$begin 'Data Table 5'
+							ReportID=453
+							$begin 'Report2D'
+								name='Data Table 5'
+								ReportID=453
+								ReportType=1
+								DisplayType=4
+								Title=''
+								Domain=''
+								$begin 'Graph2DsV2'
+									$begin 'Graph2D'
+										TraceDefID=452
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+								$end 'Graph2DsV2'
+								$begin 'PlotDisplayDataManager'
+									NextUniqueID=9
+									MoveBackwards=false
+									$begin 'PlotHeaderDataSource'
+										CompanyName=''
+										ShowDesignName=true
+										ProjectFileName=''
+									$end 'PlotHeaderDataSource'
+									StockNameIDMap(DataTable=3, Header=0, PrimarySweep=1)
+									$begin 'SourceList'
+									$end 'SourceList'
+									$begin 'DocAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=255, G=0, B=0)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HorizontalLeftTriangle'
+														SymbolColor(R=0, G=25, B=185)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=0
+													$begin 'HeaderRenderAttribute'
+														$begin 'TitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-19
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TitleFont'
+														$begin 'SubtitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-13
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'SubtitleFont'
+													$end 'HeaderRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocAttributes'
+									$begin 'DocDefaultAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocDefaultAttributes'
+									$begin 'PerViewPlotAttributeStoreMap'
+										$begin 'MapItem'
+											ItemID=6
+											$begin 'PlotAttributeStoreMap'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=5
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=75
+																Left=75
+																Bottom=9925
+																Right=377
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'OverlayLayoutAttribute'
+															$begin 'BoundingRect'
+																Top=225
+																Left=552
+																Bottom=9775
+																Right=9775
+															$end 'BoundingRect'
+															ModifySize=false
+															ModifyPosition=false
+														$end 'OverlayLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+											$end 'PlotAttributeStoreMap'
+										$end 'MapItem'
+									$end 'PerViewPlotAttributeStoreMap'
+									IsViewAttribServer=false
+									ViewID=-1
+									$begin 'SourceIDMap'
+										IDMapItem(452, 0, -1, 7)
+									$end 'SourceIDMap'
+									$begin 'TraceCharacteristicsMgr'
+									$end 'TraceCharacteristicsMgr'
+									$begin 'CartesianXMarkerManager'
+										RefMarkerID=-1
+										CurrentMarkerID=-1
+										$begin 'ReferenceCurves'
+										$end 'ReferenceCurves'
+									$end 'CartesianXMarkerManager'
+									$begin 'CartesianYMarkerManager'
+									$end 'CartesianYMarkerManager'
+									DigitalClosedRecordsItem[0:]
+									XAxisStackID=-1
+									$begin 'AllTransSrcDwg'
+										$begin 'PT'
+											ID=25
+											TransSrcDwg(-1, 0, 5)
+										$end 'PT'
+									$end 'AllTransSrcDwg'
+									$begin 'AllPtSVID'
+									$end 'AllPtSVID'
+								$end 'PlotDisplayDataManager'
+							$end 'Report2D'
+						$end 'Data Table 5'
+						$begin 'Data Table 6'
+							ReportID=455
+							$begin 'Report2D'
+								name='Data Table 6'
+								ReportID=455
+								ReportType=1
+								DisplayType=4
+								Title=''
+								Domain=''
+								$begin 'Graph2DsV2'
+									$begin 'Graph2D'
+										TraceDefID=454
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+								$end 'Graph2DsV2'
+								$begin 'PlotDisplayDataManager'
+									NextUniqueID=9
+									MoveBackwards=false
+									$begin 'PlotHeaderDataSource'
+										CompanyName=''
+										ShowDesignName=true
+										ProjectFileName=''
+									$end 'PlotHeaderDataSource'
+									StockNameIDMap(DataTable=3, Header=0, PrimarySweep=1)
+									$begin 'SourceList'
+									$end 'SourceList'
+									$begin 'DocAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=255, G=0, B=0)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HorizontalLeftTriangle'
+														SymbolColor(R=0, G=25, B=185)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=0
+													$begin 'HeaderRenderAttribute'
+														$begin 'TitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-19
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TitleFont'
+														$begin 'SubtitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-13
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'SubtitleFont'
+													$end 'HeaderRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocAttributes'
+									$begin 'DocDefaultAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocDefaultAttributes'
+									$begin 'PerViewPlotAttributeStoreMap'
+										$begin 'MapItem'
+											ItemID=6
+											$begin 'PlotAttributeStoreMap'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=5
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=75
+																Left=75
+																Bottom=9925
+																Right=268
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'OverlayLayoutAttribute'
+															$begin 'BoundingRect'
+																Top=225
+																Left=443
+																Bottom=9775
+																Right=9775
+															$end 'BoundingRect'
+															ModifySize=false
+															ModifyPosition=false
+														$end 'OverlayLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+											$end 'PlotAttributeStoreMap'
+										$end 'MapItem'
+									$end 'PerViewPlotAttributeStoreMap'
+									IsViewAttribServer=false
+									ViewID=-1
+									$begin 'SourceIDMap'
+										IDMapItem(454, 0, -1, 7)
+									$end 'SourceIDMap'
+									$begin 'TraceCharacteristicsMgr'
+									$end 'TraceCharacteristicsMgr'
+									$begin 'CartesianXMarkerManager'
+										RefMarkerID=-1
+										CurrentMarkerID=-1
+										$begin 'ReferenceCurves'
+										$end 'ReferenceCurves'
+									$end 'CartesianXMarkerManager'
+									$begin 'CartesianYMarkerManager'
+									$end 'CartesianYMarkerManager'
+									DigitalClosedRecordsItem[0:]
+									XAxisStackID=-1
+									$begin 'AllTransSrcDwg'
+										$begin 'PT'
+											ID=25
+											TransSrcDwg(-1, 0, 5)
+										$end 'PT'
+									$end 'AllTransSrcDwg'
+									$begin 'AllPtSVID'
+									$end 'AllPtSVID'
+								$end 'PlotDisplayDataManager'
+							$end 'Report2D'
+						$end 'Data Table 6'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
+						$begin 'Data Table 1'
+							ReportID=442
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'Data Table 1'
+						$begin 'Data Table 2'
+							ReportID=444
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'Data Table 2'
+						$begin 'Data Table 3'
+							ReportID=446
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'Data Table 3'
+						$begin 'Data Table 4'
+							ReportID=451
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'Data Table 4'
+						$begin 'Data Table 5'
+							ReportID=453
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+									$begin 'ViewInfo'
+										$begin 'WrapperView'
+											ID(6)
+										$end 'WrapperView'
+										$begin 'WrapperDoc'
+											HiddenDrawings()
+											$begin 'DispType'
+												PlotType=25
+												$begin 'CurveMed'
+													$begin 'MedCamera'
+													$end 'MedCamera'
+												$end 'CurveMed'
+											$end 'DispType'
+										$end 'WrapperDoc'
+										WindowPos(WindowPos(5, -1, -1, -8, -31, 234, 234, 1592, 806))
+									$end 'ViewInfo'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'Data Table 5'
+						$begin 'Data Table 6'
+							ReportID=455
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+									$begin 'ViewInfo'
+										$begin 'WrapperView'
+											ID(6)
+										$end 'WrapperView'
+										$begin 'WrapperDoc'
+											HiddenDrawings()
+											$begin 'DispType'
+												PlotType=25
+												$begin 'CurveMed'
+													$begin 'MedCamera'
+													$end 'MedCamera'
+												$end 'CurveMed'
+											$end 'DispType'
+										$end 'WrapperDoc'
+										WindowPos(WindowPos(3, -1, -1, -8, -31, 260, 260, 1618, 832))
+									$end 'ViewInfo'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'Data Table 6'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'Maxwell2DDesignInstance'
