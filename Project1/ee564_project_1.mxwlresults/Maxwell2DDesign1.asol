@@ -1,0 +1,152 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002018, month=000000000003, day=000000000025, hour=000000000000, min=000000000036, sec=000000000056)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003615, lin=000000000131, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=510
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=640
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=52)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=52, Ver=510, Dir='DV52_V510.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=52, Ver=510, Dir='DV52_MI0_V510.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=589, Instance=\'\', Solution=-3, VersionID=0)'='SolutionBlock25'
+	'SolutionKey(SimSetup=589, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock24'
+	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=590, VersionID=0)'='SolutionBlock22'
+	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=591, VersionID=0)'='SolutionBlock23'
+$end 'BlockMapName'
+$begin 'SolutionBlock22'
+	SolutionName='AdaptivePass'
+	SolutionID=590
+	V=0
+	$begin 'States'
+		F(VID=52, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'PAR'
+		NextUniqueID=2
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=0
+			PAR(VID=52, Ver=0, File='DV52_SOL590_PAR0_V0.sd')
+		$end 'SubData'
+	$end 'PAR'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=52, Ver=0, File='DV52_SOL590_NFSP10_V0.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock22'
+$begin 'SolutionBlock23'
+	SolutionName='LastAdaptive'
+	SolutionID=591
+	V=0
+	$begin 'States'
+		F(VID=52, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(630, -1)
+		$begin 'DataMap'
+			VID=52
+			Ver=0
+			Field(DblID=630, Dir='DV52_SOL591_V0.Field630/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PAR'
+		NextUniqueID=2
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=0
+			PAR(VID=52, Ver=0, File='DV52_SOL591_PAR0_V0.sd')
+		$end 'SubData'
+	$end 'PAR'
+$end 'SolutionBlock23'
+$begin 'SolutionBlock24'
+	SimSetupID=589
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=2
+	$begin 'CurrMeshes'
+		IDDblMap(628, 1, 631, 2, 632, 3)
+		$begin 'DataMap'
+			VID=52
+			Ver=0
+			M(DblID=631, Dir='DV52_S589_V0.cmesh631/')
+			M(DblID=632, Dir='DV52_S589_V0.cmesh632/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'LastPassNumbers'
+		LP(VID=52, Ver=0, P=2)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=52, Ver=0, File='DV52_S589_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=52, Ver=0, Dir='DV52_S589_MI0_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=52, Ver=0, Dir='DV52_S589_V0_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock24'
+$begin 'SolutionBlock25'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(te=0.03615910325281405, ee=0.01151700179165023, tri=12176, p=1, de_ee='(0.011517, N/A)')
+	c(te=0.03616201213049256, ee=0.001364337230067584, de=0.008044662109466983, tri=16654, p=2, de_ee='(0.0013643, 0.0080447)')
+$end 'SolutionBlock25'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=870, lin=24, lvl=0)
+		SolutionBlock25(pos=3214, lin=121, lvl=0)
+		SolutionBlock22(pos=1346, lin=31, lvl=0)
+		SolutionBlock23(pos=1913, lin=60, lvl=0)
+		SolutionBlock24(pos=2510, lin=91, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3615, lin=131, lvl=0)
+	$end '$index$'
+$end '$index$'
