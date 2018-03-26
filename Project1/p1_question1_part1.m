@@ -1,6 +1,11 @@
-%% ýnductor design 
-%25C
+%.% Inductor Design 
+% @25C
 %% part1
+
+% In this part, magnetic flux is assumed homogeneously, and use effective 
+% length from datasheet.
+
+
 u0 = 4*pi*10^-7;
 
 core_Al = 5040; % nH/turn^2
@@ -35,6 +40,10 @@ core_L = N^2/core_R     %H
 % in order to modelled this I have calculated 10 different reluctance 
 % which is effected flux and inductance then calculated inductance
 
+% inner parts of the toroid has small effective length this cause smaller
+% reluctance so that magnetic flux density and magnetic flux is high at
+% smaller radius and smaller higher radius. Also our assumption of the
+% first part is verified.
 
 core_r_div = linspace(core_inner_r,core_outer_r, 11);
 
@@ -77,6 +86,8 @@ title('flux vs radius part 1');
 xlabel('radius');
 ylabel('flux');
 
+figure;
+
 total_div_flux      
 
 total_div_inductance
@@ -84,6 +95,13 @@ total_div_inductance
 
 
 %% part 3
+
+% In this part magnetic flux density is saturated so that increasing
+% current cause to decrease permiability so that inductance of the inductor
+% decrease also, same as part 3 magnetic flux and flux density higher 
+% at the smaller radius of the core because of smaller effective distance
+% and reluctance.
+
 
 % NI = B*A*R 
 core_u_part3 = 0;
@@ -140,6 +158,8 @@ title('flux vs radius part 3');
 xlabel('radius');
 ylabel('flux');
 
+figure;
+
 total_flux_div_part3      
 
 total_inductance_div_part3
@@ -147,6 +167,9 @@ total_inductance_div_part3
 
 
 %% part 4
+
+% adding gap to core increase the reluctance so decrease the inductance and
+% core flux. Fringing flux is neglected.
 
 d_gap = 2e-3;
 
@@ -160,17 +183,36 @@ core_L_part4 = N^2/(core_R_part4+gap_R)     %H
 
 
 
+
 %% part 5
 
-% In this part, in order to model firingig flux 
+% In this part, in order to model firingig flux I increase the air gap a
+% little, in order to decide this distance I found requered reluctance to model
+% firinging distance. Also, ý have used this reluctance to calculate
+% inductance
+% 
+% Formula of fringing flux is 1+(d_gap/sqrt(Acore))*ln(2*window_area/d_gap)
+%
+
+
+area_window= 2*pi*core_inner_r;
+
+fringing_flux = 1+(d_gap/sqrt(core_Ae))* log(2*area_window/d_gap);
+
+d_fringing = N*I*core_Ae*u0/fringing_flux
+
+fringing_R = d_fringing/(core_Ae*u0);
+
+core_L_part5 = N^2/(core_R_part4+gap_R+fringing_R)     %H
+
+% By using this formula, d_fringing is came so small, so that effect of fringing
+%could not seen obiously 
 
 
 
+%% Reference 
 
-
-
-
-
+%http://www.encyclopedia-magnetica.com/doku.php/flux_fringing 
 
 
 

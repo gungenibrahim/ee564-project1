@@ -1,0 +1,40 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002018, month=000000000003, day=000000000027, hour=000000000000, min=000000000014, sec=000000000002)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000000000, lin=000000000001, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=510
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=6422
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=52)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=52, Ver=510, Dir='DV52_V510.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=52, Ver=510, Dir='DV52_MI0_V510.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=589, Instance=\'\', Solution=-3, VersionID=0)'='SolutionBlock25'
+	'SolutionKey(SimSetup=589, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock24'
+	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=590, VersionID=669)'='SolutionBlock34'
+	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=591, VersionID=669)'='SolutionBlock35'
+$end 'BlockMapName'
