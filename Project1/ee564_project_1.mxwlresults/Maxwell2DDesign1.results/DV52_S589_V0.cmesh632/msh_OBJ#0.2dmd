@@ -385,12 +385,12 @@
             toid 3982
          '</segment>'
          '<segment>'
-            fromid 7772
-            toid 3982
-         '</segment>'
-         '<segment>'
             fromid 3983
             toid 7772
+         '</segment>'
+         '<segment>'
+            fromid 7772
+            toid 3982
          '</segment>'
          '<segment>'
             fromid 3983

@@ -44,8 +44,8 @@ core_le_div_effective    = zeros(10,0);
 core_Ae_div          = zeros(10,0);
 core_L_div           = zeros(10,0);
 core_flux_div        = zeros(10,0);  
-total_div_flux           = 0;
-total_div_inductance     = 0;
+total_flux           = 0;
+total_inductance     = 0;
 
 for i = 1:10
     
@@ -59,8 +59,8 @@ for i = 1:10
     
     core_flux_div(i) = N*I/core_R_div_effective(i);
     
-    total_div_inductance = total_div_inductance + core_L_div(i);
-    total_div_flux       = total_div_flux + core_flux_div(i);
+    total_inductance = total_inductance + core_L_div(i);
+    total_flux       = total_flux + core_flux_div(i);
 
 end
 
@@ -77,9 +77,9 @@ title('flux vs radius part 1');
 xlabel('radius');
 ylabel('flux');
 
-total_div_flux      
+total_flux      
 
-total_div_inductance
+total_inductance
 
 
 
@@ -111,8 +111,8 @@ core_flux_part3 = N*I_part3/core_R_part3
 core_R_div_effective_part3 = zeros(10,0);
 core_L_div_part3  = zeros(10,0);
 core_flux_div_part3 =zeros(10,0);
-total_inductance_div_part3 = 0;
-total_flux_div_part3  = 0;
+total_inductance_part3 = 0;
+total_flux_part3  = 0;
 
 for i = 1:10
 
@@ -122,8 +122,8 @@ for i = 1:10
     
     core_flux_div_part3(i) = N*I_part3/core_R_div_effective_part3(i);
     
-    total_inductance_div_part3 = total_inductance_div_part3 + core_L_div_part3(i);
-    total_flux_div_part3       = total_flux_div_part3 + core_flux_div_part3(i);
+    total_inductance_part3 = total_inductance_part3 + core_L_div_part3(i);
+    total_flux_part3       = total_flux_part3 + core_flux_div_part3(i);
     
 end
 
@@ -140,9 +140,9 @@ title('flux vs radius part 3');
 xlabel('radius');
 ylabel('flux');
 
-total_flux_div_part3      
+total_flux_part3      
 
-total_inductance_div_part3
+total_inductance_part3
 
 
 
@@ -158,11 +158,6 @@ core_R_part4 = core_le_part4/(core_ur*u0*core_Ae); %reluctance
 
 core_L_part4 = N^2/(core_R_part4+gap_R)     %H
 
-
-
-%% part 5
-
-% In this part, in order to model firingig flux 
 
 
 

@@ -1,6 +1,6 @@
 SimValueCacheVersionID=1
 $begin 'SimValueInfos'
-	NextUniqueID=416
+	NextUniqueID=417
 	MoveBackwards=false
 	$begin 'SimValue'
 		ID=0
@@ -2914,6 +2914,13 @@ $begin 'SimValueInfos'
 			ValueState(24, 3, 1, 1)
 		$end 'SimValueParams'
 	$end 'SimValue'
+	$begin 'SimValue'
+		ID=416
+		$begin 'SimValueParams'
+			QuantityName='MagFluxNom(Current_1)'
+			ValueState(152, 22, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
 $end 'SimValueInfos'
 $begin 'SimValueCache'
 	$begin 'DesignMap'
@@ -2929,26 +2936,12 @@ $begin 'SimValueCache'
 						ReportType=1
 						SimValueContext(0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
 					$end 'ReportTypeSolnDef'
-					$begin 'MajorVVMap'
-						VersionID=669
-						$begin 'MinorVVMap'
-							MajorVariation=''
-							MinorCacheFile='min2044232152200195110.tmp'
-						$end 'MinorVVMap'
-					$end 'MajorVVMap'
 				$end 'VersionMap'
 				$begin 'VersionMap'
 					$begin 'ReportTypeSolnDef'
 						ReportType=1
 						SimValueContext(0, 0, 2, 0, false, false, 2, 1, 0, 1, 1, '', 0, 0)
 					$end 'ReportTypeSolnDef'
-					$begin 'MajorVVMap'
-						VersionID=669
-						$begin 'MinorVVMap'
-							MajorVariation=''
-							MinorCacheFile='min2074232152200195211.tmp'
-						$end 'MinorVVMap'
-					$end 'MajorVVMap'
 				$end 'VersionMap'
 				$begin 'VersionMap'
 					$begin 'ReportTypeSolnDef'
@@ -2959,7 +2952,7 @@ $begin 'SimValueCache'
 						VersionID=669
 						$begin 'MinorVVMap'
 							MajorVariation=''
-							MinorCacheFile='min2074232152200195212.tmp'
+							MinorCacheFile='min25FD1291215220850464.tmp'
 						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
