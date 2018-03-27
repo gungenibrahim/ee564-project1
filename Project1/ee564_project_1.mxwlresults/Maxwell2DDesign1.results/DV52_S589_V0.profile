@@ -88,4 +88,12 @@ $begin 'Profile'
 		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
 		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:19 , Maxwell2D ComEngine Memory : 44 M', false, true)
 	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  03/27/2018 21:00:26, Host DESKTOP-NKI8BLP, MAXWELL2D Version 15.0.0'
+		TotalInfo='Time:  03/27/2018 21:00:28, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\Ansoft\\Maxwell15.0\\Win64\\MAXWELL2DCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:02 , Maxwell2D ComEngine Memory : 43 M', false, true)
+	$end 'ProfileGroup'
 $end 'Profile'

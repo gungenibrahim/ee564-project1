@@ -1,6 +1,6 @@
 SimValueCacheVersionID=1
 $begin 'SimValueInfos'
-	NextUniqueID=420
+	NextUniqueID=422
 	MoveBackwards=false
 	$begin 'SimValue'
 		ID=0
@@ -2942,6 +2942,20 @@ $begin 'SimValueInfos'
 			ValueState(103, 16, 1, 1)
 		$end 'SimValueParams'
 	$end 'SimValue'
+	$begin 'SimValue'
+		ID=420
+		$begin 'SimValueParams'
+			QuantityName='Mag_H'
+			ValueState(329, 55, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=421
+		$begin 'SimValueParams'
+			QuantityName='Jz'
+			ValueState(313, 50, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
 $end 'SimValueInfos'
 $begin 'SimValueCache'
 	$begin 'DesignMap'
@@ -2955,39 +2969,88 @@ $begin 'SimValueCache'
 				$begin 'VersionMap'
 					$begin 'ReportTypeSolnDef'
 						ReportType=9
-						SimValueContext(0, 0, 2, 0, false, false, 666, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
+						SimValueContext(0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
-						VersionID=669
+						VersionID=6765
 						$begin 'MinorVVMap'
 							MajorVariation=''
-							MinorCacheFile='min19C7786415221743984.tmp'
+							MinorCacheFile='min46111376152217787014.tmp'
 						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
 				$begin 'VersionMap'
 					$begin 'ReportTypeSolnDef'
-						ReportType=1
-						SimValueContext(0, 0, 2, 0, false, false, 3, 1, 0, 1, 1, '', 0, 0)
-					$end 'ReportTypeSolnDef'
-				$end 'VersionMap'
-				$begin 'VersionMap'
-					$begin 'ReportTypeSolnDef'
-						ReportType=1
-						SimValueContext(0, 0, 2, 0, false, false, 2, 1, 0, 1, 1, '', 0, 0)
-					$end 'ReportTypeSolnDef'
-				$end 'VersionMap'
-				$begin 'VersionMap'
-					$begin 'ReportTypeSolnDef'
-						ReportType=1
-						SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
-						VersionID=669
+						VersionID=6765
 						$begin 'MinorVVMap'
 							MajorVariation=''
-							MinorCacheFile='min19C7786415221743985.tmp'
+							MinorCacheFile='min46111376152217787015.tmp'
 						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=6765
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min46111376152217787016.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=6765
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min46111376152217787017.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=6765
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min46111376152217787018.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=6765
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min46111376152217787019.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=6765
 					$end 'MajorVVMap'
 				$end 'VersionMap'
 			$end 'ContextMap'
