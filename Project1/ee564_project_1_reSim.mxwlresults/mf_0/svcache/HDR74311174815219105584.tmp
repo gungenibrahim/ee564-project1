@@ -1,6 +1,6 @@
 SimValueCacheVersionID=1
 $begin 'SimValueInfos'
-	NextUniqueID=422
+	NextUniqueID=427
 	MoveBackwards=false
 	$begin 'SimValue'
 		ID=0
@@ -2956,6 +2956,41 @@ $begin 'SimValueInfos'
 			ValueState(313, 50, 1, 1)
 		$end 'SimValueParams'
 	$end 'SimValue'
+	$begin 'SimValue'
+		ID=422
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.CplCoef(Current1,Current1)'
+			ValueState(90, 15, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=423
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current1,Current1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=424
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current1,Current2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=425
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current2,Current1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=426
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current2,Current2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
 $end 'SimValueInfos'
 $begin 'SimValueCache'
 	$begin 'DesignMap'
@@ -2973,10 +3008,6 @@ $begin 'SimValueCache'
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
 						VersionID=6765
-						$begin 'MinorVVMap'
-							MajorVariation=''
-							MinorCacheFile='min46111376152217787014.tmp'
-						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
 				$begin 'VersionMap'
@@ -2986,10 +3017,6 @@ $begin 'SimValueCache'
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
 						VersionID=6765
-						$begin 'MinorVVMap'
-							MajorVariation=''
-							MinorCacheFile='min46111376152217787015.tmp'
-						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
 				$begin 'VersionMap'
@@ -2999,10 +3026,6 @@ $begin 'SimValueCache'
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
 						VersionID=6765
-						$begin 'MinorVVMap'
-							MajorVariation=''
-							MinorCacheFile='min46111376152217787016.tmp'
-						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
 				$begin 'VersionMap'
@@ -3012,10 +3035,6 @@ $begin 'SimValueCache'
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
 						VersionID=6765
-						$begin 'MinorVVMap'
-							MajorVariation=''
-							MinorCacheFile='min46111376152217787017.tmp'
-						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
 				$begin 'VersionMap'
@@ -3025,10 +3044,6 @@ $begin 'SimValueCache'
 					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
 						VersionID=6765
-						$begin 'MinorVVMap'
-							MajorVariation=''
-							MinorCacheFile='min46111376152217787018.tmp'
-						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
 				$begin 'VersionMap'
@@ -3040,7 +3055,7 @@ $begin 'SimValueCache'
 						VersionID=6765
 						$begin 'MinorVVMap'
 							MajorVariation=''
-							MinorCacheFile='min46111376152217787019.tmp'
+							MinorCacheFile='min17776956152218425112.tmp'
 						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
@@ -3049,8 +3064,31 @@ $begin 'SimValueCache'
 						ReportType=9
 						SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
 					$end 'ReportTypeSolnDef'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=1
+						SimValueContext(0, 0, 2, 0, false, false, 7, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
 					$begin 'MajorVVMap'
 						VersionID=6765
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min17776956152218425113.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=1
+						SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=6765
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min17776956152218425114.tmp'
+						$end 'MinorVVMap'
 					$end 'MajorVVMap'
 				$end 'VersionMap'
 			$end 'ContextMap'

@@ -1,43 +1,13 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002018, month=000000000003, day=000000000027, hour=000000000021, min=000000000029, sec=000000000012)
+    time(year=000000002018, month=000000000003, day=000000000027, hour=000000000023, min=000000000057, sec=000000000031)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000003717, lin=000000000131, lvl=000000000000)
+    $index$(pos=000000003929, lin=000000000141, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock1'
-	ProductName=''
-	CircuitName='Maxwell2DDesign1'
-	VersionID=6765
-	PostProcess=false
-	LossLess=true
-	NextUniqueID=6795
-	MoveBackwards=false
-	$begin 'VariationIDs'
-		Map(V='', ID=52)
-	$end 'VariationIDs'
-	$begin 'LinkedDataList'
-	$end 'LinkedDataList'
-	$begin 'InitialMeshes'
-		M(VID=52, Ver=6765, Dir='DV52_V6765.imesh/')
-	$end 'InitialMeshes'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=52, Ver=6765, Dir='DV52_MI0_V6765.sd/')
-		$end 'SubData'
-	$end 'MI'
-$end 'SolutionBlock1'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=589, Instance=\'\', Solution=-3, VersionID=6765)'='SolutionBlock161'
-	'SolutionKey(SimSetup=589, Instance=\'SetupDefinition\', Solution=-1, VersionID=6765)'='SolutionBlock160'
-	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=590, VersionID=6765)'='SolutionBlock158'
-	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=591, VersionID=6765)'='SolutionBlock159'
-$end 'BlockMapName'
 $begin 'SolutionBlock160'
 	SimSetupID=589
 	SimSetupName='Setup1'
@@ -68,6 +38,13 @@ $begin 'SolutionBlock160'
 		MGI(VID=52, Ver=6765, Dir='DV52_S589_V6765_MGI/')
 	$end 'MeshGeomInfo'
 $end 'SolutionBlock160'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=589, Instance=\'\', Solution=-3, VersionID=6765)'='SolutionBlock161'
+	'SolutionKey(SimSetup=589, Instance=\'SetupDefinition\', Solution=-1, VersionID=6765)'='SolutionBlock160'
+	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=590, VersionID=6765)'='SolutionBlock158'
+	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=591, VersionID=6765)'='SolutionBlock159'
+$end 'BlockMapName'
 $begin 'SolutionBlock158'
 	SolutionName='AdaptivePass'
 	SolutionID=590
@@ -82,12 +59,17 @@ $begin 'SolutionBlock158'
 		CenterFreq=0
 	$end 'Definition'
 	$begin 'PAR'
-		NextUniqueID=105
+		NextUniqueID=109
 		MoveBackwards=false
 		$begin 'SubData'
 			ID=6
 			Ver=103
 			PAR(VID=52, Ver=103, File='DV52_SOL590_PAR6_V103.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			Ver=0
+			PAR(VID=52, Ver=0, File='DV52_SOL590_PAR7_V0.sd')
 		$end 'SubData'
 	$end 'PAR'
 	$begin 'NFSP'
@@ -119,12 +101,17 @@ $begin 'SolutionBlock159'
 		$end 'DataMap'
 	$end 'Fields'
 	$begin 'PAR'
-		NextUniqueID=115
+		NextUniqueID=119
 		MoveBackwards=false
 		$begin 'SubData'
 			ID=6
 			Ver=113
 			PAR(VID=52, Ver=113, File='DV52_SOL591_PAR6_V113.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			Ver=0
+			PAR(VID=52, Ver=0, File='DV52_SOL591_PAR7_V0.sd')
 		$end 'SubData'
 	$end 'PAR'
 $end 'SolutionBlock159'
@@ -135,18 +122,41 @@ $begin 'SolutionBlock161'
 	ConvTarget='(1, 1)'
 	ConvTargetConsecPasses='N/A'
 	ConvCurrentConsecPasses='N/A'
-	c(ee=0.05841650234326422, tri=670, p=1, te=0.01596443416450221, de_ee='(0.058417, N/A)')
-	c(ee=0.02226038444173909, de=0.03581254824332979, tri=922, p=2, te=0.01597015143518914, de_ee='(0.02226, 0.035813)')
+	c(tri=670, de_ee='(0.058417, N/A)', te=0.01596443416450221, p=1, ee=0.05841650234326422)
+	c(tri=922, de_ee='(0.02226, 0.035813)', te=0.01597015143492138, p=2, ee=0.02226038444174959, de=0.03581254656602689)
 $end 'SolutionBlock161'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign1'
+	VersionID=6765
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=6855
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=52)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=52, Ver=6765, Dir='DV52_V6765.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=52, Ver=6765, Dir='DV52_MI0_V6765.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=876, lin=24, lvl=0)
-		SolutionBlock161(pos=3323, lin=121, lvl=0)
-		SolutionBlock158(pos=2115, lin=61, lvl=0)
-		SolutionBlock159(pos=2704, lin=90, lvl=0)
-		SolutionBlock160(pos=1368, lin=31, lvl=0)
-		SolutionBlock1(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=3423, lin=118, lvl=0)
+		BlockMapName(pos=1117, lin=31, lvl=0)
+		SolutionBlock161(pos=3029, lin=108, lvl=0)
+		SolutionBlock158(pos=1609, lin=38, lvl=0)
+		SolutionBlock159(pos=2304, lin=72, lvl=0)
+		SolutionBlock160(pos=370, lin=1, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=3717, lin=131, lvl=0)
+		$index$(pos=3929, lin=141, lvl=0)
 	$end '$index$'
 $end '$index$'

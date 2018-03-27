@@ -205,7 +205,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=83
+				DataVersion=87
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -2377,7 +2377,7 @@ $begin 'AnsoftProject'
 		$end 'BoundarySetup'
 		$begin 'MaxwellParameterSetup'
 			$begin 'MaxwellParameters'
-				NextUniqueID=7
+				NextUniqueID=8
 				MoveBackwards=false
 				$begin 'Matrix1'
 					ID=6
@@ -2397,6 +2397,29 @@ $begin 'AnsoftProject'
 					$begin 'MatrixGroup'
 					$end 'MatrixGroup'
 				$end 'Matrix1'
+				$begin 'Matrix2'
+					ID=7
+					MaxwellParameterType='Matrix'
+					$begin 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=81
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+						$begin 'MatrixEntry'
+							Source=82
+							NumberOfTurns='1'
+							ReturnPath=-1
+						$end 'MatrixEntry'
+					$end 'MatrixEntry'
+					$begin 'MatrixGroup'
+						$begin 'MatrixGroup'
+							GroupName='Group1'
+							NumberOfBranches='1'
+							Sources[2: 81, 82]
+						$end 'MatrixGroup'
+					$end 'MatrixGroup'
+				$end 'Matrix2'
 			$end 'MaxwellParameters'
 			MotionParams()
 		$end 'MaxwellParameterSetup'
@@ -2457,7 +2480,7 @@ $begin 'AnsoftProject'
 				Default_PlotFolder='Automatic'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
-				NextUniqueID=9
+				NextUniqueID=10
 				MoveBackwards=false
 				NumQuantityType=1
 				$begin 'QuantityFolder_1'
@@ -2472,10 +2495,10 @@ $begin 'AnsoftProject'
 					$begin 'Scale3DSettings'
 						unit=103
 						m_nLevels=15
-						minvalue=0.369154393672943
+						minvalue=2.43517752096523e-005
 						maxvalue=0.602737128734589
 						log=false
-						IntrinsicMin=0.369154393672943
+						IntrinsicMin=2.43517752096523e-005
 						IntrinsicMax=0.602737128734589
 						LimitFieldValuePrecision=false
 						FieldValuePrecisionDigits=4
@@ -2502,11 +2525,11 @@ $begin 'AnsoftProject'
 						DeformationScale=0
 					$end 'DeformScaleSettings'
 				$end 'QuantityFolder_1'
-				NumPlots=1
+				NumPlots=2
 				$begin 'PlotDefinition_1'
 					PlotName='B_Vector1'
 					PlotDefinitionId=8
-					VersionID=1
+					VersionID=4
 					SolutionId=591
 					QuantityId=26
 					PlotFolder='B'
@@ -2533,6 +2556,36 @@ $begin 'AnsoftProject'
 						GridColor(255, 255, 255)
 					$end 'PlotOnSurfaceSettings'
 				$end 'PlotDefinition_1'
+				$begin 'PlotDefinition_2'
+					PlotName='B_Vector2'
+					PlotDefinitionId=9
+					VersionID=0
+					SolutionId=591
+					QuantityId=26
+					PlotFolder='B'
+					UserSpecifyName=0
+					UserSpecifyFolder=0
+					StreamlinePlot=false
+					IntrinsicVar=''
+					FieldPlotGeometry(1, 128, 2, 1, 636)
+					FilterIds(0)
+					$begin 'PlotOnSurfaceSettings'
+						Filled=false
+						IsoValType='Fringe'
+						SmoothShade=true
+						AddGrid=false
+						MapTransparency=true
+						Refinement=0
+						Transparency=0
+						$begin 'Arrow3DSpacingSettings'
+							ArrowUniform=true
+							ArrowSpacing=1.27720403671265
+							MinArrowSpacing=0.851469337940216
+							MaxArrowSpacing=1.70293867588043
+						$end 'Arrow3DSpacingSettings'
+						GridColor(255, 255, 255)
+					$end 'PlotOnSurfaceSettings'
+				$end 'PlotDefinition_2'
 			$end 'FieldsPlotManagerID'
 			$begin 'Report3dInGeomWnd'
 				Report3dNum=0
@@ -2591,7 +2644,7 @@ $begin 'AnsoftProject'
 							$end 'PostprocessSweep'
 							$begin 'Sweep'
 								Variable='Pass'
-								Column='1;2;3;4;5;6;7;8;9;10'
+								Column='1;2'
 								Units=''
 							$end 'Sweep'
 						$end 'Sweeps'
@@ -2606,15 +2659,15 @@ $begin 'AnsoftProject'
 							MoveBackwards=false
 							IDMap()
 						$end 'QuantityIDs'
-						SimValue('energy', 1, 809, false, SimValueID=6760, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6761, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('energy', 1, 809, false, SimValueID=6762, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('energy', 1, 809, false, SimValueID=6763, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
-						SimValue('B_Vector', 1, 103, false, SimValueID=6764, 3, 0, 2, 0, false, false, 16, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Flux_Lines', 1, 90, false, SimValueID=6791, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6792, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
-						SimValue('energy', 1, 809, false, SimValueID=6793, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6794, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('energy', 1, 809, false, SimValueID=6833, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6834, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('Matrix1.L(Current1,Current1)', 1, 24, false, SimValueID=6835, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.L(Current1,Current2)', 1, 24, false, SimValueID=6836, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.L(Current2,Current1)', 1, 24, false, SimValueID=6837, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Matrix1.L(Current2,Current2)', 1, 24, false, SimValueID=6838, 0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('L(Group1,Group1)', 1, 24, false, SimValueID=6839, 0, 0, 2, 0, false, false, 7, 1, 0, 1, 1, '', 0, 0)
+						SimValue('B_Vector', 1, 103, false, SimValueID=6840, 3, 0, 2, 0, false, false, 16, 1, 0, 1, 1, '', 0, 0)
+						SimValue('B_Vector', 1, 103, false, SimValueID=6841, 3, 0, 2, 0, false, false, 636, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='NormalizedDistance'
@@ -2695,7 +2748,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(1, -1, -1, -8, -31, 0, 0, 1577, 722), OrientationMatrix(0.0137432226911187, -6.52680728308042e-006, 2.59179432759993e-005, 0, 6.99694555805763e-006, 0.0137403374537826, -0.000284030917100608, 0, -2.5796027330216e-005, 0.000284134846879169, 0.0137403393164277, 0, -0.0170572400093079, -0.203643620014191, -5.5648021697998, 1, 0, -0.734170436859131, 0.571437418460846, -0.559669971466064, 0.131294697523117, 3.30187559127808, 7.82779359817505), Drawings[7: 'Circle1', 'Circle4', 'Circle6', 'Polyline1', 'Polyline2', 'Polyline3', 'B_Vector1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960), PlaneDefinition(PlaneID=295, PlaneName='ClipPlane1', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-8.14717912996549e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-8.14717912996549e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1), PlaneDefinition(PlaneID=296, PlaneName='ClipPlane2', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-5.10660510060038e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-5.10660510060038e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1)))))
+						'3D Modeler'(Editor3d(View(WindowPos(1, -1, -1, -8, -31, 0, 0, 1577, 722), OrientationMatrix(0.0137432226911187, -6.52680728308042e-006, 2.59179432759993e-005, 0, 6.99694555805763e-006, 0.0137403374537826, -0.000284030917100608, 0, -2.5796027330216e-005, 0.000284134846879169, 0.0137403393164277, 0, -0.0170572698116302, -0.203643620014191, -5.5648021697998, 1, 0, -0.593750655651093, 0.424716919660568, -0.491589605808258, 0.00735661387443542, 2.63934588432312, 8.49032306671143), Drawings[7: 'Circle1', 'Circle4', 'Circle6', 'Polyline1', 'Polyline2', 'Polyline3', 'B_Vector2'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960), PlaneDefinition(PlaneID=295, PlaneName='ClipPlane1', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-8.14717912996549e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-8.14717912996549e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1), PlaneDefinition(PlaneID=296, PlaneName='ClipPlane2', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-5.10660510060038e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-5.10660510060038e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -2817,11 +2870,289 @@ $begin 'AnsoftProject'
 									DesignInstanceID=1
 								$end 'TraceDef'
 							$end 'Data Table 2'
+							$begin 'Data Table 3'
+								ReportID=486
+								ReportName='Data Table 3'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=482
+									VersionID=897
+									Name='Matrix1.L(Current1,Current1)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='Matrix1.L(Current1,Current1)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=483
+									VersionID=898
+									Name='Matrix1.L(Current1,Current2)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='Matrix1.L(Current1,Current2)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=484
+									VersionID=899
+									Name='Matrix1.L(Current2,Current1)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='Matrix1.L(Current2,Current1)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=485
+									VersionID=900
+									Name='Matrix1.L(Current2,Current2)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='Matrix1.L(Current2,Current2)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+							$end 'Data Table 3'
+							$begin 'Data Table 4'
+								ReportID=488
+								ReportName='Data Table 4'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=591
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=1
+												SimValueContext(0, 0, 2, 0, false, false, 7, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=487
+									VersionID=902
+									Name='L(Group1,Group1)'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='X'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='L(Group1,Group1)'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Regular'
+												SubsweepChoiceType='All'
+												SweepVariableName='X'
+											$end '0'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+							$end 'Data Table 4'
 						$end 'Reports'
-						NextUniqueID=482
+						NextUniqueID=489
 						MoveBackwards=false
 						$begin 'NextVersID'
-							NextUniqueID=893
+							NextUniqueID=903
 							MoveBackwards=false
 						$end 'NextVersID'
 					$end 'ReportManager'
@@ -3106,6 +3437,403 @@ $begin 'AnsoftProject'
 								$end 'PlotDisplayDataManager'
 							$end 'Report2D'
 						$end 'Data Table 2'
+						$begin 'Data Table 3'
+							ReportID=486
+							$begin 'Report2D'
+								name='Data Table 3'
+								ReportID=486
+								ReportType=1
+								DisplayType=4
+								Title=''
+								Domain=''
+								$begin 'Graph2DsV2'
+									$begin 'Graph2D'
+										TraceDefID=482
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+									$begin 'Graph2D'
+										TraceDefID=483
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+									$begin 'Graph2D'
+										TraceDefID=484
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+									$begin 'Graph2D'
+										TraceDefID=485
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+								$end 'Graph2DsV2'
+								$begin 'PlotDisplayDataManager'
+									NextUniqueID=15
+									MoveBackwards=false
+									$begin 'PlotHeaderDataSource'
+										CompanyName=''
+										ShowDesignName=true
+										ProjectFileName=''
+									$end 'PlotHeaderDataSource'
+									StockNameIDMap(DataTable=3, Header=0, PrimarySweep=1)
+									$begin 'SourceList'
+									$end 'SourceList'
+									$begin 'DocAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=9
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=11
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=13
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=255, G=0, B=0)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HorizontalLeftTriangle'
+														SymbolColor(R=0, G=25, B=185)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=9
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=128, G=64, B=100)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HollowCircle'
+														SymbolColor(R=128, G=0, B=128)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=11
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=0, G=0, B=200)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='VerticalDownTriangle'
+														SymbolColor(R=192, G=192, B=192)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=13
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=80, G=0, B=80)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HollowVerticalEllipse'
+														SymbolColor(R=111, G=111, B=111)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=0
+													$begin 'HeaderRenderAttribute'
+														$begin 'TitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-19
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TitleFont'
+														$begin 'SubtitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-13
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'SubtitleFont'
+													$end 'HeaderRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocAttributes'
+									$begin 'DocDefaultAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocDefaultAttributes'
+									$begin 'PerViewPlotAttributeStoreMap'
+									$end 'PerViewPlotAttributeStoreMap'
+									IsViewAttribServer=false
+									ViewID=-1
+									$begin 'SourceIDMap'
+										IDMapItem(482, 0, -1, 7)
+										IDMapItem(483, 0, -1, 9)
+										IDMapItem(484, 0, -1, 11)
+										IDMapItem(485, 0, -1, 13)
+									$end 'SourceIDMap'
+									$begin 'TraceCharacteristicsMgr'
+									$end 'TraceCharacteristicsMgr'
+									$begin 'CartesianXMarkerManager'
+										RefMarkerID=-1
+										CurrentMarkerID=-1
+										$begin 'ReferenceCurves'
+										$end 'ReferenceCurves'
+									$end 'CartesianXMarkerManager'
+									$begin 'CartesianYMarkerManager'
+									$end 'CartesianYMarkerManager'
+									DigitalClosedRecordsItem[0:]
+									XAxisStackID=-1
+									$begin 'AllTransSrcDwg'
+										$begin 'PT'
+											ID=25
+											TransSrcDwg(-1, 0, 5)
+										$end 'PT'
+									$end 'AllTransSrcDwg'
+									$begin 'AllPtSVID'
+									$end 'AllPtSVID'
+								$end 'PlotDisplayDataManager'
+							$end 'Report2D'
+						$end 'Data Table 3'
+						$begin 'Data Table 4'
+							ReportID=488
+							$begin 'Report2D'
+								name='Data Table 4'
+								ReportID=488
+								ReportType=1
+								DisplayType=4
+								Title=''
+								Domain=''
+								$begin 'Graph2DsV2'
+									$begin 'Graph2D'
+										TraceDefID=487
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+								$end 'Graph2DsV2'
+								$begin 'PlotDisplayDataManager'
+									NextUniqueID=9
+									MoveBackwards=false
+									$begin 'PlotHeaderDataSource'
+										CompanyName=''
+										ShowDesignName=true
+										ProjectFileName=''
+									$end 'PlotHeaderDataSource'
+									StockNameIDMap(DataTable=3, Header=0, PrimarySweep=1)
+									$begin 'SourceList'
+									$end 'SourceList'
+									$begin 'DocAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=7
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=1
+															LineColor(R=255, G=0, B=0)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HorizontalLeftTriangle'
+														SymbolColor(R=0, G=25, B=185)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=0
+													$begin 'HeaderRenderAttribute'
+														$begin 'TitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-19
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TitleFont'
+														$begin 'SubtitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	Height=-13
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'SubtitleFont'
+													$end 'HeaderRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocAttributes'
+									$begin 'DocDefaultAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocDefaultAttributes'
+									$begin 'PerViewPlotAttributeStoreMap'
+										$begin 'MapItem'
+											ItemID=6
+											$begin 'PlotAttributeStoreMap'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=5
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=75
+																Left=75
+																Bottom=9925
+																Right=434
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'OverlayLayoutAttribute'
+															$begin 'BoundingRect'
+																Top=225
+																Left=609
+																Bottom=9775
+																Right=9775
+															$end 'BoundingRect'
+															ModifySize=false
+															ModifyPosition=false
+														$end 'OverlayLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+											$end 'PlotAttributeStoreMap'
+										$end 'MapItem'
+									$end 'PerViewPlotAttributeStoreMap'
+									IsViewAttribServer=false
+									ViewID=-1
+									$begin 'SourceIDMap'
+										IDMapItem(487, 0, -1, 7)
+									$end 'SourceIDMap'
+									$begin 'TraceCharacteristicsMgr'
+									$end 'TraceCharacteristicsMgr'
+									$begin 'CartesianXMarkerManager'
+										RefMarkerID=-1
+										CurrentMarkerID=-1
+										$begin 'ReferenceCurves'
+										$end 'ReferenceCurves'
+									$end 'CartesianXMarkerManager'
+									$begin 'CartesianYMarkerManager'
+									$end 'CartesianYMarkerManager'
+									DigitalClosedRecordsItem[0:]
+									XAxisStackID=-1
+									$begin 'AllTransSrcDwg'
+										$begin 'PT'
+											ID=25
+											TransSrcDwg(-1, 0, 5)
+										$end 'PT'
+									$end 'AllTransSrcDwg'
+									$begin 'AllPtSVID'
+									$end 'AllPtSVID'
+								$end 'PlotDisplayDataManager'
+							$end 'Report2D'
+						$end 'Data Table 4'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
 						$begin 'Data Table 1'
@@ -3122,6 +3850,20 @@ $begin 'AnsoftProject'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Data Table 2'
+						$begin 'Data Table 3'
+							ReportID=486
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'Data Table 3'
+						$begin 'Data Table 4'
+							ReportID=488
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'Data Table 4'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'Maxwell2DDesignInstance'

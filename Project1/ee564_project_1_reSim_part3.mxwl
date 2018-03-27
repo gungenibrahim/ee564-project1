@@ -132,6 +132,10 @@ $begin 'AnsoftProject'
 							X=84.5
 							Y=0.51
 						$end 'Coordinate'
+						$begin 'Coordinate'
+							X=200
+							Y=0.53
+						$end 'Coordinate'
 					$end 'BHCoordinates'
 				$end 'permeability'
 				$begin 'magnetic_coercivity'
@@ -141,7 +145,7 @@ $begin 'AnsoftProject'
 					DirComp2='0'
 					DirComp3='0'
 				$end 'magnetic_coercivity'
-				ModTime=1521919666
+				ModTime=1522183498
 				Library=''
 				LibLocation='Project'
 			$end 'feritte_T'
@@ -205,7 +209,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=87
+				DataVersion=90
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -247,7 +251,7 @@ $begin 'AnsoftProject'
 								Transparency=0
 								PartCoordinateSystem=1
 								UDMId=-1
-								MaterialValue='"feritte_prj1"'
+								MaterialValue='"feritte_T"'
 								SolveInside=true
 							$end 'Attributes'
 							$begin 'Operations'
@@ -2472,11 +2476,11 @@ $begin 'AnsoftProject'
 					$begin 'Scale3DSettings'
 						unit=103
 						m_nLevels=15
-						minvalue=0.369154393672943
-						maxvalue=0.602737128734589
+						minvalue=0.402126342058182
+						maxvalue=0.512709319591522
 						log=false
-						IntrinsicMin=0.369154393672943
-						IntrinsicMax=0.602737128734589
+						IntrinsicMin=0.402126342058182
+						IntrinsicMax=0.512709319591522
 						LimitFieldValuePrecision=false
 						FieldValuePrecisionDigits=4
 						ScaleType=0
@@ -2506,7 +2510,7 @@ $begin 'AnsoftProject'
 				$begin 'PlotDefinition_1'
 					PlotName='B_Vector1'
 					PlotDefinitionId=8
-					VersionID=1
+					VersionID=4
 					SolutionId=591
 					QuantityId=26
 					PlotFolder='B'
@@ -2606,23 +2610,17 @@ $begin 'AnsoftProject'
 							MoveBackwards=false
 							IDMap()
 						$end 'QuantityIDs'
-						SimValue('energy', 1, 809, false, SimValueID=6760, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6761, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('energy', 1, 809, false, SimValueID=6762, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1')
-						SimValue('energy', 1, 809, false, SimValueID=6763, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
-						SimValue('B_Vector', 1, 103, false, SimValueID=6764, 3, 0, 2, 0, false, false, 16, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Flux_Lines', 1, 90, false, SimValueID=6791, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6792, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
-						SimValue('energy', 1, 809, false, SimValueID=6793, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6794, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('Flux_Lines', 1, 90, false, SimValueID=6795, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('Jz', 1, 313, false, SimValueID=6796, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('energy', 1, 809, false, SimValueID=6797, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('energy', 1, 809, false, SimValueID=6798, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6799, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6800, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6801, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('energy', 1, 809, false, SimValueID=6802, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('energy', 1, 809, false, SimValueID=6811, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('energy', 1, 809, false, SimValueID=6812, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6813, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6814, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('B_Vector', 1, 103, false, SimValueID=6816, 3, 0, 2, 0, false, false, 16, 1, 0, 1, 1, '', 0, 0)
+						SimValue('energy', 1, 809, false, SimValueID=6817, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6818, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('energy', 1, 809, false, SimValueID=6819, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('energy', 1, 809, false, SimValueID=6820, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6821, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('energy', 1, 809, false, SimValueID=6822, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='NormalizedDistance'
@@ -2674,8 +2672,8 @@ $begin 'AnsoftProject'
 				$begin 'Setup'
 					N='Setup1'
 					V=6765
-					Soln(N='AdaptivePass', V=6765)
-					Soln(N='LastAdaptive', V=6765)
+					Soln(N='AdaptivePass', V=6830)
+					Soln(N='LastAdaptive', V=6830)
 				$end 'Setup'
 			$end 'Version ID Map'
 			$begin 'ID Map'
@@ -2703,7 +2701,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(1, -1, -1, -8, -31, 0, 0, 1577, 722), OrientationMatrix(0.0137432226911187, -6.52680728308042e-006, 2.59179432759993e-005, 0, 6.99694555805763e-006, 0.0137403374537826, -0.000284030917100608, 0, -2.5796027330216e-005, 0.000284134846879169, 0.0137403393164277, 0, -0.0170572400093079, -0.203643620014191, -5.5648021697998, 1, 0, -0.916618585586548, 0.929477691650391, -0.73854398727417, 0.238462507724762, 2.63934588432312, 8.49032306671143), Drawings[8: 'Circle1', 'Circle4', 'Circle6', 'Polyline1', 'Polyline2', 'Polyline3', 'B_Vector1', 'Balloon1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960), PlaneDefinition(PlaneID=295, PlaneName='ClipPlane1', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-8.14717912996549e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-8.14717912996549e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1), PlaneDefinition(PlaneID=296, PlaneName='ClipPlane2', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-5.10660510060038e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-5.10660510060038e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1)))))
+						'3D Modeler'(Editor3d(View(WindowPos(1, -1, -1, -8, -31, 0, 0, 1577, 722), OrientationMatrix(0.0137432226911187, -6.52680728308042e-006, 2.59179432759993e-005, 0, 6.99694555805763e-006, 0.0137403374537826, -0.000284030917100608, 0, -2.5796027330216e-005, 0.000284134846879169, 0.0137403393164277, 0, -0.0170572996139526, -0.203643664717674, -5.5648021697998, 1, 0, -0.804774641990662, 0.65322744846344, -0.603622317314148, 0.126454085111618, 3.30187559127808, 7.82779359817505), Drawings[6: 'Circle1', 'Circle4', 'Circle6', 'Polyline1', 'Polyline2', 'Polyline3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960), PlaneDefinition(PlaneID=295, PlaneName='ClipPlane1', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-8.14717912996549e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-8.14717912996549e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1), PlaneDefinition(PlaneID=296, PlaneName='ClipPlane2', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-5.10660510060038e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-5.10660510060038e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'

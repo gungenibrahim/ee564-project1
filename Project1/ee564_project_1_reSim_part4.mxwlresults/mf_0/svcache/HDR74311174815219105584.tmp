@@ -1,0 +1,3011 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=422
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='Area(Circle1)'
+			ValueState(235, 35, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.CplCoef(Current_1,Current_1)'
+			ValueState(90, 15, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=4
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=5
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=6
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=7
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=8
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=9
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=10
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=11
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=12
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=13
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=14
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=15
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=16
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=17
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=18
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=19
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=20
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=21
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_1,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=22
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=23
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=24
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=25
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=26
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=27
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=28
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=29
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=30
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=31
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=32
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=33
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=34
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=35
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=36
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=37
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=38
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=39
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=40
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=41
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_2,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=42
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=43
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=44
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=45
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=46
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=47
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=48
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=49
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=50
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=51
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=52
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=53
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=54
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=55
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=56
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=57
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=58
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=59
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=60
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=61
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_3,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=62
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=63
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=64
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=65
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=66
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=67
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=68
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=69
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=70
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=71
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=72
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=73
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=74
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=75
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=76
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=77
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=78
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=79
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=80
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=81
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_4,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=82
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=83
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=84
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=85
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=86
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=87
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=88
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=89
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=90
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=91
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=92
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=93
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=94
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=95
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=96
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=97
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=98
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=99
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=100
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=101
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_5,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=102
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=103
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=104
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=105
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=106
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=107
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=108
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=109
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=110
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=111
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=112
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=113
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=114
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=115
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=116
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=117
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=118
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=119
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=120
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=121
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_6,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=122
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=123
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=124
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=125
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=126
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=127
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=128
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=129
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=130
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=131
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=132
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=133
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=134
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=135
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=136
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=137
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=138
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=139
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=140
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=141
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_7,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=142
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=143
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=144
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=145
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=146
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=147
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=148
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=149
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=150
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=151
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=152
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=153
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=154
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=155
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=156
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=157
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=158
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=159
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=160
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=161
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_8,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=162
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=163
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=164
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=165
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=166
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=167
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=168
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=169
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=170
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=171
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=172
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=173
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=174
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=175
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=176
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=177
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=178
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=179
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=180
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=181
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_9,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=182
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=183
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=184
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=185
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=186
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=187
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=188
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=189
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=190
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=191
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=192
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=193
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=194
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=195
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=196
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=197
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=198
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=199
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=200
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=201
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_10,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=202
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=203
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=204
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=205
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=206
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=207
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=208
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=209
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=210
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=211
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=212
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=213
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=214
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=215
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=216
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=217
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=218
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=219
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=220
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=221
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_11,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=222
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=223
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=224
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=225
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=226
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=227
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=228
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=229
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=230
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=231
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=232
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=233
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=234
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=235
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=236
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=237
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=238
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=239
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=240
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=241
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_12,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=242
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=243
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=244
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=245
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=246
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=247
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=248
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=249
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=250
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=251
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=252
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=253
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=254
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=255
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=256
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=257
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=258
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=259
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=260
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=261
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_13,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=262
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=263
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=264
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=265
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=266
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=267
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=268
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=269
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=270
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=271
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=272
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=273
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=274
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=275
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=276
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=277
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=278
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=279
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=280
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=281
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_14,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=282
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=283
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=284
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=285
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=286
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=287
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=288
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=289
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=290
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=291
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=292
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=293
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=294
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=295
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=296
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=297
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=298
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=299
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=300
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=301
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_15,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=302
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=303
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=304
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=305
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=306
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=307
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=308
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=309
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=310
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=311
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=312
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=313
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=314
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=315
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=316
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=317
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=318
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=319
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=320
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=321
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_16,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=322
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=323
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=324
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=325
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=326
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=327
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=328
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=329
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=330
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=331
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=332
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=333
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=334
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=335
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=336
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=337
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=338
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=339
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=340
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=341
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_17,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=342
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=343
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=344
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=345
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=346
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=347
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=348
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=349
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=350
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=351
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=352
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=353
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=354
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=355
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=356
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=357
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=358
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=359
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=360
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=361
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_18,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=362
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=363
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=364
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=365
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=366
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=367
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=368
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=369
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=370
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=371
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=372
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=373
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=374
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=375
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=376
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=377
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=378
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=379
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=380
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=381
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_19,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=382
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=383
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=384
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_3)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=385
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_4)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=386
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_5)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=387
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_6)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=388
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_7)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=389
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_8)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=390
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_9)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=391
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=392
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_11)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=393
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_12)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=394
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_13)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=395
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_14)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=396
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_15)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=397
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_16)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=398
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_17)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=399
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_18)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=400
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_19)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=401
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Current_20,Current_20)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=402
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.MagFlux(Current_1)'
+			ValueState(152, 22, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=403
+		$begin 'SimValueParams'
+			QuantityName='Area(Circle3_8)'
+			ValueState(235, 35, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=404
+		$begin 'SimValueParams'
+			QuantityName='Area(Circle3_9)'
+			ValueState(235, 35, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=405
+		$begin 'SimValueParams'
+			QuantityName='Area(Circle3_3)'
+			ValueState(235, 35, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=406
+		$begin 'SimValueParams'
+			QuantityName='Area(Circle3_1)'
+			ValueState(235, 35, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=407
+		$begin 'SimValueParams'
+			QuantityName='Area(Circle3_6)'
+			ValueState(235, 35, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=408
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.MagFluxNom(Current_1)'
+			ValueState(152, 22, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=409
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.Lnom(Current_1,Current_1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=410
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.L(Group1,Group1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=411
+		$begin 'SimValueParams'
+			QuantityName='L(Group1,Group1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=412
+		$begin 'SimValueParams'
+			QuantityName='Matrix1.Lnom(Current_1,Current_10)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=413
+		$begin 'SimValueParams'
+			QuantityName='L(Group2,Group2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=414
+		$begin 'SimValueParams'
+			QuantityName='L(Group2,Group1)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=415
+		$begin 'SimValueParams'
+			QuantityName='L(Group1,Group2)'
+			ValueState(24, 3, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=416
+		$begin 'SimValueParams'
+			QuantityName='MagFluxNom(Current_1)'
+			ValueState(152, 22, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=417
+		$begin 'SimValueParams'
+			QuantityName='Flux_Lines'
+			ValueState(90, 15, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=418
+		$begin 'SimValueParams'
+			QuantityName='energy'
+			ValueState(809, 159, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=419
+		$begin 'SimValueParams'
+			QuantityName='Mag_B'
+			ValueState(103, 16, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=420
+		$begin 'SimValueParams'
+			QuantityName='Mag_H'
+			ValueState(329, 55, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=421
+		$begin 'SimValueParams'
+			QuantityName='Jz'
+			ValueState(313, 50, 1, 1)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=590
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=591
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=6871
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min15B41364015221841135.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=6871
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min15B41364015221841136.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=9
+						SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=6871
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min15B41364015221841137.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'
