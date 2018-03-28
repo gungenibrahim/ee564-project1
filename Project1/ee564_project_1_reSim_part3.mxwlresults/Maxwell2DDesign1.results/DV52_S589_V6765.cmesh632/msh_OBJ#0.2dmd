@@ -1,6 +1,6 @@
 '<header>'
    file_format_version 'ansoft_cmu_abstract_model_version 1.0.0'
-   mesh_file_checksum 'npts=640; nedges= 1899; nelem= 1260; nfacets= 8   226   268   442    24    68   166    42    24'
+   mesh_file_checksum 'npts=641; nedges= 1902; nelem= 1262; nfacets= 8   227   262   457    24    66   164    42    20'
 '</header>'
 '<model>'
    modelname 'no name yet'
@@ -539,7 +539,7 @@
       '</edge>'
       '<edge>'
          edge_id 302
-         nseg 120
+         nseg 121
          '<segment>'
             fromid 221
             toid 222
@@ -794,6 +794,10 @@
          '</segment>'
          '<segment>'
             fromid 279
+            toid 598
+         '</segment>'
+         '<segment>'
+            fromid 598
             toid 278
          '</segment>'
          '<segment>'
@@ -1087,12 +1091,12 @@
             toid 625
          '</segment>'
          '<segment>'
-            fromid 631
+            fromid 632
             toid 330
          '</segment>'
          '<segment>'
             fromid 331
-            toid 631
+            toid 632
          '</segment>'
       '</edge>'
       '<edge>'
@@ -1119,12 +1123,12 @@
          edge_id 629
          nseg 8
          '<segment>'
-            fromid 635
+            fromid 636
             toid 344
          '</segment>'
          '<segment>'
             fromid 327
-            toid 635
+            toid 636
          '</segment>'
          '<segment>'
             fromid 403
@@ -1143,12 +1147,12 @@
             toid 343
          '</segment>'
          '<segment>'
-            fromid 583
-            toid 342
+            fromid 341
+            toid 584
          '</segment>'
          '<segment>'
-            fromid 341
-            toid 583
+            fromid 584
+            toid 342
          '</segment>'
       '</edge>'
       '<edge>'
@@ -1159,20 +1163,20 @@
             toid 341
          '</segment>'
          '<segment>'
-            fromid 567
+            fromid 551
             toid 340
          '</segment>'
          '<segment>'
             fromid 339
-            toid 567
+            toid 551
          '</segment>'
          '<segment>'
-            fromid 560
+            fromid 532
             toid 378
          '</segment>'
          '<segment>'
             fromid 338
-            toid 560
+            toid 532
          '</segment>'
          '<segment>'
             fromid 378
@@ -1187,12 +1191,12 @@
             toid 337
          '</segment>'
          '<segment>'
-            fromid 574
+            fromid 573
             toid 337
          '</segment>'
          '<segment>'
             fromid 336
-            toid 574
+            toid 573
          '</segment>'
       '</edge>'
       '<vertices>'
@@ -1421,20 +1425,20 @@
          edge_id 861
          nseg 4
          '<segment>'
-            fromid 350
-            toid 510
-         '</segment>'
-         '<segment>'
-            fromid 566
-            toid 2
-         '</segment>'
-         '<segment>'
-            fromid 510
+            fromid 570
             toid 1
          '</segment>'
          '<segment>'
             fromid 350
-            toid 566
+            toid 570
+         '</segment>'
+         '<segment>'
+            fromid 601
+            toid 2
+         '</segment>'
+         '<segment>'
+            fromid 350
+            toid 601
          '</segment>'
       '</edge>'
       '<vertices>'

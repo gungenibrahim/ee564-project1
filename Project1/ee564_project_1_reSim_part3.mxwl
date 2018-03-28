@@ -209,7 +209,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=90
+				DataVersion=95
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -2364,7 +2364,7 @@ $begin 'AnsoftProject'
 					BoundType='Current'
 					Objects(692)
 					ParentBndID=-1
-					Current='(0.435*20) A'
+					Current='(0.435*20*1.5) A'
 					IsPositive=false
 				$end 'Current1'
 				$begin 'Current2'
@@ -2372,7 +2372,7 @@ $begin 'AnsoftProject'
 					BoundType='Current'
 					Objects(707)
 					ParentBndID=-1
-					Current='(0.435*20) A'
+					Current='(0.435*20*1.5) A'
 					IsPositive=true
 				$end 'Current2'
 			$end 'Boundaries'
@@ -2461,7 +2461,7 @@ $begin 'AnsoftProject'
 				Default_PlotFolder='Automatic'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
-				NextUniqueID=9
+				NextUniqueID=11
 				MoveBackwards=false
 				NumQuantityType=1
 				$begin 'QuantityFolder_1'
@@ -2476,14 +2476,14 @@ $begin 'AnsoftProject'
 					$begin 'Scale3DSettings'
 						unit=103
 						m_nLevels=15
-						minvalue=0.402126342058182
-						maxvalue=0.512709319591522
+						minvalue=0.428264
+						maxvalue=0.528264
 						log=false
-						IntrinsicMin=0.402126342058182
-						IntrinsicMax=0.512709319591522
+						IntrinsicMin=3.65037230949383e-005
+						IntrinsicMax=0.528263807296753
 						LimitFieldValuePrecision=false
 						FieldValuePrecisionDigits=4
-						ScaleType=0
+						ScaleType=1
 						UserSpecifyValues(15, 0.370119005441666, 0.387052685022354, 0.403986364603043, 0.420920073986053, 0.437853753566742, 0.45478743314743, 0.471721112728119, 0.488654792308807, 0.505588471889496, 0.522522151470184, 0.539455890655518, 0.556389570236206, 0.573323249816895, 0.590256929397583, 0.607190608978271)
 					$end 'Scale3DSettings'
 					$begin 'Marker3DSettings'
@@ -2506,11 +2506,11 @@ $begin 'AnsoftProject'
 						DeformationScale=0
 					$end 'DeformScaleSettings'
 				$end 'QuantityFolder_1'
-				NumPlots=1
+				NumPlots=2
 				$begin 'PlotDefinition_1'
 					PlotName='B_Vector1'
 					PlotDefinitionId=8
-					VersionID=4
+					VersionID=11
 					SolutionId=591
 					QuantityId=26
 					PlotFolder='B'
@@ -2537,6 +2537,36 @@ $begin 'AnsoftProject'
 						GridColor(255, 255, 255)
 					$end 'PlotOnSurfaceSettings'
 				$end 'PlotDefinition_1'
+				$begin 'PlotDefinition_2'
+					PlotName='B_Vector2'
+					PlotDefinitionId=10
+					VersionID=0
+					SolutionId=591
+					QuantityId=26
+					PlotFolder='B'
+					UserSpecifyName=0
+					UserSpecifyFolder=0
+					StreamlinePlot=false
+					IntrinsicVar=''
+					FieldPlotGeometry(1, 128, 2, 1, 636)
+					FilterIds(0)
+					$begin 'PlotOnSurfaceSettings'
+						Filled=false
+						IsoValType='Fringe'
+						SmoothShade=true
+						AddGrid=false
+						MapTransparency=true
+						Refinement=0
+						Transparency=0
+						$begin 'Arrow3DSpacingSettings'
+							ArrowUniform=true
+							ArrowSpacing=1.27720403671265
+							MinArrowSpacing=0.851469337940216
+							MaxArrowSpacing=1.70293867588043
+						$end 'Arrow3DSpacingSettings'
+						GridColor(255, 255, 255)
+					$end 'PlotOnSurfaceSettings'
+				$end 'PlotDefinition_2'
 			$end 'FieldsPlotManagerID'
 			$begin 'Report3dInGeomWnd'
 				Report3dNum=0
@@ -2610,17 +2640,24 @@ $begin 'AnsoftProject'
 							MoveBackwards=false
 							IDMap()
 						$end 'QuantityIDs'
-						SimValue('energy', 1, 809, false, SimValueID=6811, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('energy', 1, 809, false, SimValueID=6812, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6813, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6814, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('B_Vector', 1, 103, false, SimValueID=6816, 3, 0, 2, 0, false, false, 16, 1, 0, 1, 1, '', 0, 0)
-						SimValue('energy', 1, 809, false, SimValueID=6817, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6818, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('energy', 1, 809, false, SimValueID=6819, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
-						SimValue('energy', 1, 809, false, SimValueID=6820, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('Mag_B', 1, 103, false, SimValueID=6821, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-						SimValue('energy', 1, 809, false, SimValueID=6822, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('energy', 1, 809, false, SimValueID=6857, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('energy', 1, 809, false, SimValueID=6858, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6859, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6860, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('B_Vector', 1, 103, false, SimValueID=6861, 3, 0, 2, 0, false, false, 16, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Flux_Lines', 1, 90, false, SimValueID=6862, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('Flux_Lines', 1, 90, false, SimValueID=6863, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6864, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6865, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('Flux_Lines', 1, 90, false, SimValueID=6866, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('Flux_Lines', 1, 90, false, SimValueID=6867, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6868, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
+						SimValue('Flux_Lines', 1, 90, false, SimValueID=6892, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('Jz', 1, 313, false, SimValueID=6893, 0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6894, 0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+						SimValue('Mag_B', 1, 103, false, SimValueID=6895, 3, 0, 2, 0, false, false, 636, 1, 0, 1, 1, '', 0, 0)
+						SimValue('B_Vector', 1, 103, false, SimValueID=6896, 3, 0, 2, 0, false, false, 636, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Mag_H', 1, 329, false, SimValueID=6897, 0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='NormalizedDistance'
@@ -2672,8 +2709,8 @@ $begin 'AnsoftProject'
 				$begin 'Setup'
 					N='Setup1'
 					V=6765
-					Soln(N='AdaptivePass', V=6830)
-					Soln(N='LastAdaptive', V=6830)
+					Soln(N='AdaptivePass', V=6873)
+					Soln(N='LastAdaptive', V=6873)
 				$end 'Setup'
 			$end 'Version ID Map'
 			$begin 'ID Map'
@@ -2701,14 +2738,14 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(1, -1, -1, -8, -31, 0, 0, 1577, 722), OrientationMatrix(0.0137432226911187, -6.52680728308042e-006, 2.59179432759993e-005, 0, 6.99694555805763e-006, 0.0137403374537826, -0.000284030917100608, 0, -2.5796027330216e-005, 0.000284134846879169, 0.0137403393164277, 0, -0.0170572996139526, -0.203643664717674, -5.5648021697998, 1, 0, -0.804774641990662, 0.65322744846344, -0.603622317314148, 0.126454085111618, 3.30187559127808, 7.82779359817505), Drawings[6: 'Circle1', 'Circle4', 'Circle6', 'Polyline1', 'Polyline2', 'Polyline3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960), PlaneDefinition(PlaneID=295, PlaneName='ClipPlane1', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-8.14717912996549e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-8.14717912996549e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1), PlaneDefinition(PlaneID=296, PlaneName='ClipPlane2', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-5.10660510060038e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-5.10660510060038e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, -17, -2, 1560, 720), OrientationMatrix(0.0137432226911187, -6.52680728308042e-006, 2.59179432759993e-005, 0, 6.99694555805763e-006, 0.0137403374537826, -0.000284030917100608, 0, -2.5796027330216e-005, 0.000284134846879169, 0.0137403393164277, 0, -0.0170572977513075, -0.203643679618835, -5.5648021697998, 1, 0, -0.73510354757309, 0.59550017118454, -0.566186666488647, 0.124547049403191, 3.30187559127808, 7.82779359817505), Drawings[7: 'Circle1', 'Circle4', 'Circle6', 'Polyline1', 'Polyline2', 'Polyline3', 'B_Vector1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960), PlaneDefinition(PlaneID=295, PlaneName='ClipPlane1', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-8.14717912996549e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-8.14717912996549e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1), PlaneDefinition(PlaneID=296, PlaneName='ClipPlane2', Enabled=true, ShowCap=true, ShowHandle=true, Flipped=false, RootX=-5.10660510060038e-016, RootY=0, RootZ=0, NormalX=-0, NormalY=-0, NormalZ=-1, OriginalRootX=-5.10660510060038e-016, OriginalRootY=0, OriginalRootZ=0, OriginalNormalX=-0, OriginalNormalY=-0, OriginalNormalZ=-1)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
 					$begin 'ReportManager'
 						$begin 'Reports'
 							$begin 'Data Table 1'
-								ReportID=493
+								ReportID=509
 								ReportName='Data Table 1'
 								$begin 'TraceDef'
 									TraceDefinitionType='TraceDefinition'
@@ -2718,20 +2755,20 @@ $begin 'AnsoftProject'
 											SolutionID=591
 											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 												ReportType=9
-												SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+												SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
 											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
 									$end 'DesignSolnDefn'
-									ID=492
-									VersionID=904
-									Name='energy'
+									ID=508
+									VersionID=920
+									Name='Mag_B'
 									TieNameToExpr=true
 									$begin 'Components'
 										$begin 'TraceComponentDefinition'
 											Expr='Distance'
 										$end 'TraceComponentDefinition'
 										$begin 'TraceComponentDefinition'
-											Expr='energy'
+											Expr='Mag_B'
 										$end 'TraceComponentDefinition'
 									$end 'Components'
 									$begin 'ExtendedTraceInfo'
@@ -2766,7 +2803,7 @@ $begin 'AnsoftProject'
 								$end 'TraceDef'
 							$end 'Data Table 1'
 							$begin 'Data Table 2'
-								ReportID=495
+								ReportID=511
 								ReportName='Data Table 2'
 								$begin 'TraceDef'
 									TraceDefinitionType='TraceDefinition'
@@ -2776,20 +2813,20 @@ $begin 'AnsoftProject'
 											SolutionID=591
 											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 												ReportType=9
-												SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '10')
+												SimValueContext(0, 0, 2, 0, false, false, 913, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
 											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
 									$end 'DesignSolnDefn'
-									ID=494
-									VersionID=906
-									Name='energy'
+									ID=510
+									VersionID=922
+									Name='Mag_B'
 									TieNameToExpr=true
 									$begin 'Components'
 										$begin 'TraceComponentDefinition'
 											Expr='Distance'
 										$end 'TraceComponentDefinition'
 										$begin 'TraceComponentDefinition'
-											Expr='energy'
+											Expr='Mag_B'
 										$end 'TraceComponentDefinition'
 									$end 'Components'
 									$begin 'ExtendedTraceInfo'
@@ -2824,7 +2861,7 @@ $begin 'AnsoftProject'
 								$end 'TraceDef'
 							$end 'Data Table 2'
 							$begin 'Data Table 3'
-								ReportID=497
+								ReportID=513
 								ReportName='Data Table 3'
 								$begin 'TraceDef'
 									TraceDefinitionType='TraceDefinition'
@@ -2834,12 +2871,12 @@ $begin 'AnsoftProject'
 											SolutionID=591
 											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 												ReportType=9
-												SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '1001')
+												SimValueContext(0, 0, 2, 0, false, false, 918, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
 											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
 									$end 'DesignSolnDefn'
-									ID=496
-									VersionID=908
+									ID=512
+									VersionID=924
 									Name='Mag_B'
 									TieNameToExpr=true
 									$begin 'Components'
@@ -2881,85 +2918,27 @@ $begin 'AnsoftProject'
 									DesignInstanceID=1
 								$end 'TraceDef'
 							$end 'Data Table 3'
-							$begin 'Data Table 4'
-								ReportID=499
-								ReportName='Data Table 4'
-								$begin 'TraceDef'
-									TraceDefinitionType='TraceDefinition'
-									$begin 'DesignSolnDefn'
-										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
-											DesignID=0
-											SolutionID=591
-											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
-												ReportType=9
-												SimValueContext(0, 0, 2, 0, false, false, 860, 1, 0, 1, 1, '', 0, 0, 'PC', false, '5')
-											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
-										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
-									$end 'DesignSolnDefn'
-									ID=498
-									VersionID=910
-									Name='Mag_B'
-									TieNameToExpr=true
-									$begin 'Components'
-										$begin 'TraceComponentDefinition'
-											Expr='Distance'
-										$end 'TraceComponentDefinition'
-										$begin 'TraceComponentDefinition'
-											Expr='Mag_B'
-										$end 'TraceComponentDefinition'
-									$end 'Components'
-									$begin 'ExtendedTraceInfo'
-										NumPoints=0
-										TraceType=0
-										Offset=0
-										XLabel=''
-										SamplingPeriod='0'
-										SamplingPeriodOffset='0'
-										AutoDelay=true
-										DelayValue='0ps'
-										AutoCompCrossAmplitude=true
-										CrossingAmplitude='0mV'
-										YAxis=1
-										AutoCompEyeMeasurementPoint=true
-										EyeMeasurementPoint='0ps'
-									$end 'ExtendedTraceInfo'
-									$begin 'TraceFamiliesDisplayDefinition'
-										DisplayFamiliesType='DisplayAll'
-									$end 'TraceFamiliesDisplayDefinition'
-									$begin 'PointsetDefinition'
-										$begin 'SubsweepDefParamsContainer'
-											$begin '0'
-												SubsweepType='Special'
-												SweepVariableName='Distance'
-												HasMinMaxLimit=false
-											$end '0'
-										$end 'SubsweepDefParamsContainer'
-										FamilyBlock()
-									$end 'PointsetDefinition'
-									DesignInstanceID=1
-								$end 'TraceDef'
-							$end 'Data Table 4'
 						$end 'Reports'
-						NextUniqueID=500
+						NextUniqueID=514
 						MoveBackwards=false
 						$begin 'NextVersID'
-							NextUniqueID=911
+							NextUniqueID=925
 							MoveBackwards=false
 						$end 'NextVersID'
 					$end 'ReportManager'
 					$begin 'Reports'
 						$begin 'Data Table 1'
-							ReportID=493
+							ReportID=509
 							$begin 'Report2D'
 								name='Data Table 1'
-								ReportID=493
+								ReportID=509
 								ReportType=9
 								DisplayType=4
 								Title=''
 								Domain=''
 								$begin 'Graph2DsV2'
 									$begin 'Graph2D'
-										TraceDefID=492
+										TraceDefID=508
 										Type='Continuous'
 										Axis='Y1'
 									$end 'Graph2D'
@@ -3059,11 +3038,44 @@ $begin 'AnsoftProject'
 										$end 'PlotAttributeStoreMap'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
+										$begin 'MapItem'
+											ItemID=6
+											$begin 'PlotAttributeStoreMap'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=5
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=75
+																Left=75
+																Bottom=9925
+																Right=434
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'OverlayLayoutAttribute'
+															$begin 'BoundingRect'
+																Top=225
+																Left=609
+																Bottom=9775
+																Right=9775
+															$end 'BoundingRect'
+															ModifySize=false
+															ModifyPosition=false
+														$end 'OverlayLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+											$end 'PlotAttributeStoreMap'
+										$end 'MapItem'
 									$end 'PerViewPlotAttributeStoreMap'
 									IsViewAttribServer=false
 									ViewID=-1
 									$begin 'SourceIDMap'
-										IDMapItem(492, 0, -1, 7)
+										IDMapItem(508, 0, -1, 7)
 									$end 'SourceIDMap'
 									$begin 'TraceCharacteristicsMgr'
 									$end 'TraceCharacteristicsMgr'
@@ -3089,17 +3101,17 @@ $begin 'AnsoftProject'
 							$end 'Report2D'
 						$end 'Data Table 1'
 						$begin 'Data Table 2'
-							ReportID=495
+							ReportID=511
 							$begin 'Report2D'
 								name='Data Table 2'
-								ReportID=495
+								ReportID=511
 								ReportType=9
 								DisplayType=4
 								Title=''
 								Domain=''
 								$begin 'Graph2DsV2'
 									$begin 'Graph2D'
-										TraceDefID=494
+										TraceDefID=510
 										Type='Continuous'
 										Axis='Y1'
 									$end 'Graph2D'
@@ -3199,11 +3211,44 @@ $begin 'AnsoftProject'
 										$end 'PlotAttributeStoreMap'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
+										$begin 'MapItem'
+											ItemID=6
+											$begin 'PlotAttributeStoreMap'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=5
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=75
+																Left=75
+																Bottom=9925
+																Right=434
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'OverlayLayoutAttribute'
+															$begin 'BoundingRect'
+																Top=225
+																Left=609
+																Bottom=9775
+																Right=9775
+															$end 'BoundingRect'
+															ModifySize=false
+															ModifyPosition=false
+														$end 'OverlayLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+											$end 'PlotAttributeStoreMap'
+										$end 'MapItem'
 									$end 'PerViewPlotAttributeStoreMap'
 									IsViewAttribServer=false
 									ViewID=-1
 									$begin 'SourceIDMap'
-										IDMapItem(494, 0, -1, 7)
+										IDMapItem(510, 0, -1, 7)
 									$end 'SourceIDMap'
 									$begin 'TraceCharacteristicsMgr'
 									$end 'TraceCharacteristicsMgr'
@@ -3229,17 +3274,17 @@ $begin 'AnsoftProject'
 							$end 'Report2D'
 						$end 'Data Table 2'
 						$begin 'Data Table 3'
-							ReportID=497
+							ReportID=513
 							$begin 'Report2D'
 								name='Data Table 3'
-								ReportID=497
+								ReportID=513
 								ReportType=9
 								DisplayType=4
 								Title=''
 								Domain=''
 								$begin 'Graph2DsV2'
 									$begin 'Graph2D'
-										TraceDefID=496
+										TraceDefID=512
 										Type='Continuous'
 										Axis='Y1'
 									$end 'Graph2D'
@@ -3339,11 +3384,44 @@ $begin 'AnsoftProject'
 										$end 'PlotAttributeStoreMap'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
+										$begin 'MapItem'
+											ItemID=6
+											$begin 'PlotAttributeStoreMap'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=5
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=75
+																Left=75
+																Bottom=9925
+																Right=434
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'OverlayLayoutAttribute'
+															$begin 'BoundingRect'
+																Top=225
+																Left=609
+																Bottom=9775
+																Right=9775
+															$end 'BoundingRect'
+															ModifySize=false
+															ModifyPosition=false
+														$end 'OverlayLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+											$end 'PlotAttributeStoreMap'
+										$end 'MapItem'
 									$end 'PerViewPlotAttributeStoreMap'
 									IsViewAttribServer=false
 									ViewID=-1
 									$begin 'SourceIDMap'
-										IDMapItem(496, 0, -1, 7)
+										IDMapItem(512, 0, -1, 7)
 									$end 'SourceIDMap'
 									$begin 'TraceCharacteristicsMgr'
 									$end 'TraceCharacteristicsMgr'
@@ -3368,176 +3446,77 @@ $begin 'AnsoftProject'
 								$end 'PlotDisplayDataManager'
 							$end 'Report2D'
 						$end 'Data Table 3'
-						$begin 'Data Table 4'
-							ReportID=499
-							$begin 'Report2D'
-								name='Data Table 4'
-								ReportID=499
-								ReportType=9
-								DisplayType=4
-								Title=''
-								Domain=''
-								$begin 'Graph2DsV2'
-									$begin 'Graph2D'
-										TraceDefID=498
-										Type='Continuous'
-										Axis='Y1'
-									$end 'Graph2D'
-								$end 'Graph2DsV2'
-								$begin 'PlotDisplayDataManager'
-									NextUniqueID=9
-									MoveBackwards=false
-									$begin 'PlotHeaderDataSource'
-										CompanyName=''
-										ShowDesignName=true
-										ProjectFileName=''
-									$end 'PlotHeaderDataSource'
-									StockNameIDMap(DataTable=3, Header=0, PrimarySweep=1)
-									$begin 'SourceList'
-									$end 'SourceList'
-									$begin 'DocAttributes'
-										$begin 'PlotAttributeStoreMap'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=7
-													$begin 'CurveCartesianAttribute'
-														YAxis='Y1'
-													$end 'CurveCartesianAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=7
-													$begin 'CurveRenderAttribute'
-														$begin 'LineRenderAttribute'
-															LineStyle='Solid'
-															LineWidth=1
-															LineColor(R=255, G=0, B=0)
-														$end 'LineRenderAttribute'
-														TraceType='Continuous'
-														SymbolType='HorizontalLeftTriangle'
-														SymbolColor(R=0, G=25, B=185)
-														ShowSymbols=false
-														SymbolFrequency=15
-														ShowArrows=false
-													$end 'CurveRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=0
-													$begin 'HeaderRenderAttribute'
-														$begin 'TitleFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-19
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TitleFont'
-														$begin 'SubtitleFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-13
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'SubtitleFont'
-													$end 'HeaderRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-										$end 'PlotAttributeStoreMap'
-									$end 'DocAttributes'
-									$begin 'DocDefaultAttributes'
-										$begin 'PlotAttributeStoreMap'
-										$end 'PlotAttributeStoreMap'
-									$end 'DocDefaultAttributes'
-									$begin 'PerViewPlotAttributeStoreMap'
-									$end 'PerViewPlotAttributeStoreMap'
-									IsViewAttribServer=false
-									ViewID=-1
-									$begin 'SourceIDMap'
-										IDMapItem(498, 0, -1, 7)
-									$end 'SourceIDMap'
-									$begin 'TraceCharacteristicsMgr'
-									$end 'TraceCharacteristicsMgr'
-									$begin 'CartesianXMarkerManager'
-										RefMarkerID=-1
-										CurrentMarkerID=-1
-										$begin 'ReferenceCurves'
-										$end 'ReferenceCurves'
-									$end 'CartesianXMarkerManager'
-									$begin 'CartesianYMarkerManager'
-									$end 'CartesianYMarkerManager'
-									DigitalClosedRecordsItem[0:]
-									XAxisStackID=-1
-									$begin 'AllTransSrcDwg'
-										$begin 'PT'
-											ID=25
-											TransSrcDwg(-1, 0, 5)
-										$end 'PT'
-									$end 'AllTransSrcDwg'
-									$begin 'AllPtSVID'
-									$end 'AllPtSVID'
-								$end 'PlotDisplayDataManager'
-							$end 'Report2D'
-						$end 'Data Table 4'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
 						$begin 'Data Table 1'
-							ReportID=493
+							ReportID=509
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
+									$begin 'ViewInfo'
+										$begin 'WrapperView'
+											ID(6)
+										$end 'WrapperView'
+										$begin 'WrapperDoc'
+											HiddenDrawings()
+											$begin 'DispType'
+												PlotType=25
+												$begin 'CurveMed'
+													$begin 'MedCamera'
+													$end 'MedCamera'
+												$end 'CurveMed'
+											$end 'DispType'
+										$end 'WrapperDoc'
+										WindowPos(WindowPos(5, -1, -1, -1, -1, 26, 26, 1369, 514))
+									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Data Table 1'
 						$begin 'Data Table 2'
-							ReportID=495
+							ReportID=511
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
+									$begin 'ViewInfo'
+										$begin 'WrapperView'
+											ID(6)
+										$end 'WrapperView'
+										$begin 'WrapperDoc'
+											HiddenDrawings()
+											$begin 'DispType'
+												PlotType=25
+												$begin 'CurveMed'
+													$begin 'MedCamera'
+													$end 'MedCamera'
+												$end 'CurveMed'
+											$end 'DispType'
+										$end 'WrapperDoc'
+										WindowPos(WindowPos(5, -1, -1, -1, -1, 52, 52, 1395, 540))
+									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Data Table 2'
 						$begin 'Data Table 3'
-							ReportID=497
+							ReportID=513
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
+									$begin 'ViewInfo'
+										$begin 'WrapperView'
+											ID(6)
+										$end 'WrapperView'
+										$begin 'WrapperDoc'
+											HiddenDrawings()
+											$begin 'DispType'
+												PlotType=25
+												$begin 'CurveMed'
+													$begin 'MedCamera'
+													$end 'MedCamera'
+												$end 'CurveMed'
+											$end 'DispType'
+										$end 'WrapperDoc'
+										WindowPos(WindowPos(1, -1, -1, -1, -1, 78, 78, 1421, 566))
+									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Data Table 3'
-						$begin 'Data Table 4'
-							ReportID=499
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'Data Table 4'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'Maxwell2DDesignInstance'

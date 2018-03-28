@@ -40,4 +40,22 @@ $begin 'Profile'
 		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
 		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:02 , Maxwell2D ComEngine Memory : 42.5 M', false, true)
 	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  03/28/2018 19:36:43, Host DESKTOP-NKI8BLP, MAXWELL2D Version 15.0.0'
+		TotalInfo='Time:  03/28/2018 19:36:48, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\Ansoft\\Maxwell15.0\\Win64\\MAXWELL2DCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Pass 2', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver MRS, 14 calls', 0, 0, 0, 0, 502, '1827 matrix,    0KB disk', true, true)
+		ProfileTask('  SolvingForPass', 1, 0, 0, 0, 32236, '922 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Pass 3', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver MRS, 20 calls', 0, 0, 1, 0, 807, '2507 matrix,    0KB disk', true, true)
+		ProfileTask('    Solver MRS', 0, 0, 0, 0, 807, '2507 matrix,    0KB disk', true, true)
+		ProfileTask('  SolvingForPass', 1, 0, 1, 0, 37420, '1262 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Adaptive Passes Converged', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:04 , Maxwell2D ComEngine Memory : 42.5 M', false, true)
+	$end 'ProfileGroup'
 $end 'Profile'

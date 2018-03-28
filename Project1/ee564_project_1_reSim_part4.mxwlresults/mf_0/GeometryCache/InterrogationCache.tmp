@@ -1,5 +1,5 @@
 $begin 'CacheDataVersion'
-	DataVersion=94
+	DataVersion=105
 $end 'CacheDataVersion'
 $begin 'InterrogationCache'
 	Version=1
@@ -90,5 +90,13 @@ $begin 'InterrogationCache'
 				Valid=true
 			$end 'BoundingBox'
 		$end '918'
+		$begin '952'
+			$begin 'BoundingBox'
+				Low[3: 21, 0, 0]
+				High[3: 35, 0, 0]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '952'
 	$end 'BodyCaches'
 $end 'InterrogationCache'

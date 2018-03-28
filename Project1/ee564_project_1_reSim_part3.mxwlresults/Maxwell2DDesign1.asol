@@ -1,36 +1,19 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002018, month=000000000003, day=000000000027, hour=000000000023, min=000000000046, sec=000000000015)
+    time(year=000000002018, month=000000000003, day=000000000028, hour=000000000019, min=000000000044, sec=000000000007)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000003718, lin=000000000131, lvl=000000000000)
+    $index$(pos=000000003832, lin=000000000132, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock161'
-	ConvSetupName='eConv'
-	MaxPasses='10'
-	MinPasses='2'
-	ConvTarget='(1, 1)'
-	ConvTargetConsecPasses='N/A'
-	ConvCurrentConsecPasses='N/A'
-	c(p=1, te=0.01596443416450221, de_ee='(0.058417, N/A)', tri=670, ee=0.05841650234326422)
-	c(p=2, te=0.01603962251022458, de_ee='(0.0027251, 0.47097)', de=0.4709740724137695, tri=922, ee=0.002725079694617588)
-$end 'SolutionBlock161'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=589, Instance=\'\', Solution=-3, VersionID=6765)'='SolutionBlock161'
-	'SolutionKey(SimSetup=589, Instance=\'SetupDefinition\', Solution=-1, VersionID=6765)'='SolutionBlock160'
-	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=590, VersionID=6830)'='SolutionBlock166'
-	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=591, VersionID=6830)'='SolutionBlock167'
-$end 'BlockMapName'
-$begin 'SolutionBlock167'
+$begin 'SolutionBlock171'
 	SolutionName='LastAdaptive'
 	SolutionID=591
-	V=6830
+	V=6873
 	$begin 'States'
-		F(VID=52, Ver=6830)
+		F(VID=52, Ver=6873)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -42,20 +25,27 @@ $begin 'SolutionBlock167'
 		IDDblMap(630, -1)
 		$begin 'DataMap'
 			VID=52
-			Ver=6830
-			Field(DblID=630, Dir='DV52_SOL591_V6830.Field630/')
+			Ver=6873
+			Field(DblID=630, Dir='DV52_SOL591_V6873.Field630/')
 		$end 'DataMap'
 	$end 'Fields'
 	$begin 'PAR'
-		NextUniqueID=122
+		NextUniqueID=127
 		MoveBackwards=false
 		$begin 'SubData'
 			ID=6
-			Ver=120
-			PAR(VID=52, Ver=120, File='DV52_SOL591_PAR6_V120.sd')
+			Ver=125
+			PAR(VID=52, Ver=125, File='DV52_SOL591_PAR6_V125.sd')
 		$end 'SubData'
 	$end 'PAR'
-$end 'SolutionBlock167'
+$end 'SolutionBlock171'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=589, Instance=\'\', Solution=-3, VersionID=6765)'='SolutionBlock161'
+	'SolutionKey(SimSetup=589, Instance=\'SetupDefinition\', Solution=-1, VersionID=6765)'='SolutionBlock160'
+	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=590, VersionID=6873)'='SolutionBlock170'
+	'SolutionKey(SimSetup=589, Instance=\'SolutionDefinition\', Solution=591, VersionID=6873)'='SolutionBlock171'
+$end 'BlockMapName'
 $begin 'SolutionBlock160'
 	SimSetupID=589
 	SimSetupName='Setup1'
@@ -66,12 +56,12 @@ $begin 'SolutionBlock160'
 		$begin 'DataMap'
 			VID=52
 			Ver=6765
-			M(DblID=631, Dir='DV52_S589_V6765.cmesh631/')
 			M(DblID=632, Dir='DV52_S589_V6765.cmesh632/')
+			M(DblID=688, Dir='DV52_S589_V6765.cmesh688/')
 		$end 'DataMap'
 	$end 'CurrMeshes'
 	$begin 'LastPassNumbers'
-		LP(VID=52, Ver=6765, P=2)
+		LP(VID=52, Ver=6765, P=3)
 	$end 'LastPassNumbers'
 	$begin 'Profiles'
 		P(VID=52, Ver=6765, File='DV52_S589_V6765.profile')
@@ -86,12 +76,12 @@ $begin 'SolutionBlock160'
 		MGI(VID=52, Ver=6765, Dir='DV52_S589_V6765_MGI/')
 	$end 'MeshGeomInfo'
 $end 'SolutionBlock160'
-$begin 'SolutionBlock166'
+$begin 'SolutionBlock170'
 	SolutionName='AdaptivePass'
 	SolutionID=590
-	V=6830
+	V=6873
 	$begin 'States'
-		F(VID=52, Ver=6830)
+		F(VID=52, Ver=6873)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -100,28 +90,39 @@ $begin 'SolutionBlock166'
 		CenterFreq=0
 	$end 'Definition'
 	$begin 'PAR'
-		NextUniqueID=110
+		NextUniqueID=114
 		MoveBackwards=false
 		$begin 'SubData'
 			ID=6
-			Ver=108
-			PAR(VID=52, Ver=108, File='DV52_SOL590_PAR6_V108.sd')
+			Ver=112
+			PAR(VID=52, Ver=112, File='DV52_SOL590_PAR6_V112.sd')
 		$end 'SubData'
 	$end 'PAR'
 	$begin 'NFSP'
 		$begin 'SubData'
 			ID=10
-			NFSP(VID=52, Ver=6830, File='DV52_SOL590_NFSP10_V6830.sd')
+			NFSP(VID=52, Ver=6873, File='DV52_SOL590_NFSP10_V6873.sd')
 		$end 'SubData'
 	$end 'NFSP'
-$end 'SolutionBlock166'
+$end 'SolutionBlock170'
+$begin 'SolutionBlock161'
+	ConvSetupName='eConv'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(te=0.01596443416450221, p=1, tri=670, de_ee='(0.058417, N/A)', ee=0.05841650234326422)
+	c(te=0.02628359720108619, p=2, tri=922, de_ee='(0.041661, 64.638)', ee=0.04166056328076087, de=64.63845151198153)
+	c(te=0.02631467886550125, p=3, tri=1262, de_ee='(0.086815, 0.11825)', ee=0.08681545265121475, de=0.1182549868546243)
+$end 'SolutionBlock161'
 $begin 'SolutionBlock1'
 	ProductName=''
 	CircuitName='Maxwell2DDesign1'
 	VersionID=6765
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=6849
+	NextUniqueID=6898
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='', ID=52)
@@ -140,13 +141,13 @@ $begin 'SolutionBlock1'
 $end 'SolutionBlock1'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock1(pos=3212, lin=108, lvl=0)
-		SolutionBlock161(pos=370, lin=1, lvl=0)
-		BlockMapName(pos=765, lin=11, lvl=0)
-		SolutionBlock166(pos=2623, lin=79, lvl=0)
-		SolutionBlock167(pos=1257, lin=18, lvl=0)
-		SolutionBlock160(pos=1876, lin=49, lvl=0)
+		BlockMapName(pos=989, lin=32, lvl=0)
+		SolutionBlock161(pos=2817, lin=98, lvl=0)
+		SolutionBlock170(pos=2228, lin=69, lvl=0)
+		SolutionBlock171(pos=370, lin=1, lvl=0)
+		SolutionBlock160(pos=1481, lin=39, lvl=0)
+		SolutionBlock1(pos=3326, lin=109, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=3718, lin=131, lvl=0)
+		$index$(pos=3832, lin=132, lvl=0)
 	$end '$index$'
 $end '$index$'

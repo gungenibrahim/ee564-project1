@@ -104,17 +104,11 @@ total_div_inductance
 
 
 % NI = B*A*R 
-core_u_part3 = 0;
-I_part3 =0;
-core_ur_part3 = 0;
-
-I_part3 = I*1.5;
+I_part3 = 0.6525;
 
 core_B_sat = 0.53;
 
-core_u_part3 = (core_B_sat * core_le) /(N*I_part3);
-
-core_ur_part3 = core_u_part3 /(4*pi*10e-7) 
+core_ur_part3 = 4500*0.53/0.425/1.5;
 
 core_R_part3 = core_le/(core_ur_part3*u0*core_Ae); %reluctance
 
@@ -122,7 +116,6 @@ core_R_part3 = core_le/(core_ur_part3*u0*core_Ae); %reluctance
 core_L_part3 = N^2/core_R_part3     %H
 
 core_flux_part3 = N*I_part3/core_R_part3
-
 
 % part 3 division 
 
